@@ -50,8 +50,29 @@
     text-rendering: optimizeLegibility;
 }
 
+header {
+    width: 100%;
+    height: calc(100vw * 0.0555555555555556);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.logo {
+    margin-left: calc(100vw * 0.0555555555555556);
+    width: calc(100vw * 0.1326388888888889);
+    height: auto;
+    display: flex;
+    background-image: url(../img/SVG/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;  
+}
+
 h1 {
-    padding: 12% 0 0 5.56%;
+    padding-left: calc(100vw * 0.0555555555555556);
+    padding-top: calc(100vw * 0.1111111111111111);
     font-family: 'Thunder';
     font-style: normal;
     font-weight: 800;
@@ -70,7 +91,7 @@ h1 {
 }
 
 .wrap {
-    height: calc(100vw * 0.67);
+    height: calc(100vw * 0.6666666666666667);
     width: auto;
     background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
 }

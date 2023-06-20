@@ -70,7 +70,7 @@ header {
     background-position: center center;  
 }
 
-ol {
+.mainmenu {
     margin-left: calc((100vw / 2 - 139px) - (100vw * 0.0555555555555556) - (100vw * 0.1326388888888889));
     width: 278px;
     height: auto;
@@ -83,6 +83,15 @@ ol {
     display: flex;
     justify-content: space-between;
     align-items: center;  
+}
+
+.social {
+    margin-right: 80px;
+    display: flex;
+    width: 184px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 li {

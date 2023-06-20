@@ -1,11 +1,11 @@
 /* Webfont: Thunder-ExtraBoldLCItalic */
 @font-face {
     font-family: 'ThunderExtBdIta';
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -14,11 +14,11 @@
 /* Webfont: Thunder-BoldLC */
 @font-face {
     font-family: 'Thunder';
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff2') format('woff2'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff2') format('woff2'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -27,11 +27,11 @@
 /* Webfont: Thunder-BoldLCItalic */
 @font-face {
     font-family: 'ThunderIta';
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: italic;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -40,11 +40,11 @@
 /* Webfont: Thunder-SemiBoldLCItalic */
 @font-face {
     font-family: 'ThunderSemBdIta';
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('/fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('./fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -68,5 +68,5 @@ h1 {
 .wrap {
     height: 960px;
     width: auto;
-    background: url(/img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(/img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
+    background: url(./img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(./img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
     }

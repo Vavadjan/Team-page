@@ -70,6 +70,25 @@ header {
     background-position: center center;  
 }
 
+ol {
+    margin-left: calc((100vw / 2 - 139px) - (100vw * 0.0555555555555556) - (100vw * 0.1326388888888889));
+    width: 278px;
+    height: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+li {
+    display: flex;
+}
+
 h1 {
     padding-left: calc(100vw * 0.0555555555555556);
     padding-top: calc(100vw * 0.1111111111111111);
@@ -77,7 +96,7 @@ h1 {
     font-style: normal;
     font-weight: 800;
     line-height: 1;
-    font-size: calc(28px + 123 * (100vw / 1440));
+    font-size: calc(28px + 132 * (100vw / 1440));
     color: #FFFFFF;
 }
 

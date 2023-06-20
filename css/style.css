@@ -68,5 +68,5 @@ h1 {
 .wrap {
     height: 960px;
     width: auto;
-    background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
+    background: url(img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
     }

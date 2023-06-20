@@ -70,7 +70,7 @@ h1 {
 }
 
 .wrap {
-    height: calc(100vw * 1.5);
+    height: calc(100vw * 0.67);
     width: auto;
     background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
 }

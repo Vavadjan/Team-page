@@ -1,124 +1,145 @@
 /* Webfont: Thunder-ExtraBoldLCItalic */
 @font-face {
-    font-family: 'ThunderExtBdIta';
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+  font-family: "ThunderExtBdIta";
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLCItalic.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
 
 /* Webfont: Thunder-BoldLC */
 @font-face {
-    font-family: 'Thunder';
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff2') format('woff2'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
+  font-family: "Thunder";
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLC.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
 }
 
 /* Webfont: Thunder-BoldLCItalic */
 @font-face {
-    font-family: 'ThunderIta';
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: italic;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
+  font-family: "ThunderIta";
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-BoldLCItalic.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-style: italic;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
 }
 
 /* Webfont: Thunder-SemiBoldLCItalic */
 @font-face {
-    font-family: 'ThunderSemBdIta';
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+  font-family: "ThunderSemBdIta";
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-SemiBoldLCItalic.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
 
 header {
-    width: 100%;
-    height: calc(100vw * 0.0555555555555556);
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    z-index: 90;
-}
-
-.header_wrap {
-    display: flex;
-    width: 88.888888888889%;
+  width: 100%;
+  height: calc(100vw * 0.0555555555555556);
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 90;
 }
 
 .logo {
-    /* margin-left: calc(100vw * 0.0555555555555556); */
-    width: calc(100vw * 0.1326388888888889);
-    height: auto;
-    display: flex;
-    background-image: url(../img/SVG/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;  
+  margin-left: calc(100vw * 0.0555555555555556);
+  width: calc(100vw * 0.1326388888888889);
+  height: auto;
+  display: flex;
+  background-image: url(../img/SVG/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .mainmenu {
-    /* margin-left: calc((100vw / 2 - 139px) - (100vw * 0.0555555555555556) - (100vw * 0.1326388888888889));
-    margin-right: calc(100vw * 0.2201388888888889); */
-    min-width: 278px;
-    height: auto;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
+  /* margin-left: calc((100vw / 2 - 139px) - (100vw * 0.0555555555555556) - (100vw * 0.1326388888888889)); */
+  min-width: 278px;
+  height: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social {
-    margin-right: 0;
-    display: flex;
-    min-width: 184px;
-    height: auto;
-    justify-content: space-between;
-    align-items: center; 
+  margin-right: 0;
+  display: flex;
+  min-width: 184px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    padding-left: calc(100vw * 0.0555555555555556);
-    padding-top: calc(100vw * 0.1111111111111111);
-    font-family: 'Thunder';
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1;
-    font-size: calc(28px + 132 * (100vw / 1440));
-    color: #FFFFFF;
+  padding-left: calc(100vw * 0.0555555555555556);
+  padding-top: calc(100vw * 0.1111111111111111);
+  font-family: "Thunder";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1;
+  font-size: calc(28px + 132 * (100vw / 1440));
+  color: #ffffff;
 }
 
 .highlight {
   color: #161616;
-  background-image: url('../img/SVG/digitalHeroes_bg.svg');
+  background-image: url("../img/SVG/digitalHeroes_bg.svg");
   display: block;
   background-repeat: no-repeat;
   background-size: contain;
@@ -126,9 +147,10 @@ h1 {
 }
 
 .wrap {
-    /* margin-top: calc(100vw * 0.0555555555555556 * (-1)) ; */
-    height: calc(100vw * 0.6666666666666667);
-    width: auto;
-    background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
-    z-index: 1;
+  margin-top: calc(100vw * 0.0555555555555556 * (-1));
+  height: calc(100vw * 0.6666666666666667);
+  width: auto;
+  background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat,
+    url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
+  z-index: 1;
 }

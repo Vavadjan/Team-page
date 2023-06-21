@@ -78,14 +78,15 @@
   text-rendering: optimizeLegibility;
 }
 
-header {
+.header_wrap {
+  width: 88%;
+  margin-left: 5.5%;
   height: calc(100vw * 0.0555555555555556);
   display: flex;
-  /* z-index: 900; */
+  justify-content: space-between;
 }
 
 .logo {
-  margin-left: calc(100vw * 0.0555555555555556);
   width: calc(100vw * 0.1326388888888889);
   height: auto;
   display: flex;
@@ -96,13 +97,7 @@ header {
   flex-shrink: 0;
 }
 
-.header_clear_block_1 {
-  width: calc(100vw * 0.2152777777777778);
-  display: flex;
-}
-
 .mainmenu {
-  /* margin-left: calc((100vw / 2 - 139px) - (100vw * 0.0555555555555556) - (100vw * 0.1326388888888889)); */
   min-width: 278px;
   height: auto;
   font-family: "Montserrat";
@@ -117,24 +112,12 @@ header {
   flex-shrink: 0;
 }
 
-.header_clear_block_2 {
-  width: calc(100vw * 0.2201388888888889);
-  display: flex;  
-}
-
 .social {
-  /* margin-left: calc(100vw * 0.2201388888888889); */
-  margin-right: calc(100vw * 0.0555555555555556);
-  display: flex;
   min-width: 184px;
-  height: auto;
+  height: auto;  
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-shrink: 0;
-}
-
-li {
-  display: flex;
 }
 
 h1 {
@@ -163,5 +146,4 @@ h1 {
   width: auto;
   background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat,
     url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
-  /* z-index: 1; */
 }

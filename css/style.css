@@ -147,3 +147,11 @@ h1 {
   background: url(../img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat,
     url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
 }
+
+.specialists_menu {
+  margin-top: calc(100vw * 0.1076388888888889);
+  width: 100%;
+  height: calc(100vw * 0.0979166666666667);
+  background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,
+    url(../img/SVG/specialist_menu_bg2.svg) 0 0/100% auto no-repeat;
+}

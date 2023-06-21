@@ -104,6 +104,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  /* font-size: calc(12px + 8 * (100vw / 1440)); */
   line-height: 24px;
   color: #ffffff;
   display: flex;
@@ -148,8 +149,23 @@ h1 {
     url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
 }
 
+.specialists_menu_wrap {
+  margin-top: calc(100vw * 0.0770833333333333);
+  height: calc(100vw * 0.1284722222222222);
+}
+
+.specialists_menu_p {
+  margin-left: calc(100vw * 0.0555555555555556);
+  font-family: Thunder;
+  /* font-size: 36px; */
+  font-size: calc(16px + 20 * (100vw / 1440));
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .specialists_menu {
-  margin-top: calc(100vw * 0.1076388888888889);
   width: 100%;
   height: calc(100vw * 0.0979166666666667);
   background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,

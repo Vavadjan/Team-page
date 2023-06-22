@@ -177,11 +177,13 @@ h1 {
 
 .specialists_menu_ol {
   margin-left: calc(100vw * 0.0645833333333333);
+  margin-bottom: calc(100vw * 0.0151944444444444);
   display: flex;
   justify-content: space-between;  
   align-items: center;
   /* gap: 26px; */
   width: 83.8vw;
+  transform: rotate(-1.25deg);
 }
 
 .specialists_menu_a {  

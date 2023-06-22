@@ -116,11 +116,12 @@
 
 .social {
   /* min-width: 184px; */
-  width: calc(100vw * );
+  /* width: calc(100vw * 0.1277777777777778); */
   height: auto;  
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: calc(100vw * 0.0111111111111111);
 }
 
 h1 {

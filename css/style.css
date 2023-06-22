@@ -150,6 +150,8 @@ h1 {
 }
 
 .specialists_menu_wrap {
+  width: 99%;
+  margin-left: 0.5%;
   margin-top: calc(100vw * 0.0770833333333333);
   height: calc(100vw * 0.1284722222222222);
 }
@@ -170,4 +172,23 @@ h1 {
   height: calc(100vw * 0.0979166666666667);
   background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,
     url(../img/SVG/specialist_menu_bg2.svg) 0 0/100% auto no-repeat;
+    display: flex;
+}
+
+.specialists_menu_ol {
+  margin-left: calc(100vw * 0.0645833333333333);
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  /* gap: 26px; */
+  width: 83.8vw;
+}
+
+.specialists_menu_a {  
+  color: #FFF;
+  /* font-size: 24px; */
+  font-size: calc(0px + 24 * (100vw / 1440));
+  font-family: Montserrat;
+  font-weight: 500;
+  display: flex;
 }

@@ -135,8 +135,23 @@ h1 {
   font-style: normal;
   font-weight: 800;
   line-height: 1;
-  font-size: calc(28px + 132 * (100vw / 1440));
+  font-size: calc(0px + 160 * (100vw / 1440));
   color: #ffffff;
+}
+
+h2 {
+  position: absolute;
+  top: calc(100vw * 0.5701388888888889);
+  left: calc(100vw * 0.3590277777777778);
+  /* font-size: 130px; */
+  font-size: calc(0px + 130 * (100vw / 1440));
+  font-family: Thunder;
+  font-weight: 800;
+  background: linear-gradient(45deg, #161616, #260046, #2A004E, #500092, #3A006A, #2A004E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .highlight {
@@ -160,7 +175,7 @@ h1 {
   height: calc(100vw * 0.1145833333333333);
   width: 99%;
   margin-left: 0.5%;
-  margin-top: calc(100vw * 0.0909090909090909);  
+  margin-top: calc(100vw * 0.0809090909090909);  
   position: relative;
 }
 

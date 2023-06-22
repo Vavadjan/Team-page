@@ -98,23 +98,25 @@
 }
 
 .mainmenu {
-  min-width: 278px;
+  /* min-width: 278px; */
   height: auto;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  /* font-size: calc(12px + 8 * (100vw / 1440)); */
+  /* font-size: 20px; */
+  font-size: calc(0px + 24 * (100vw / 1440));
   line-height: 24px;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
+  gap: 32px;
 }
 
 .social {
-  min-width: 184px;
+  /* min-width: 184px; */
+  width: calc(100vw * );
   height: auto;  
   display: flex;
   justify-content: space-between;
@@ -150,10 +152,11 @@ h1 {
 }
 
 .specialists_menu_wrap {
+  height: calc(100vw * 0.1145833333333333);
   width: 99%;
   margin-left: 0.5%;
-  margin-top: calc(100vw * 0.0770833333333333);
-  height: calc(100vw * 0.1284722222222222);
+  margin-top: calc(100vw * 0.0909090909090909);  
+  position: relative;
 }
 
 .specialists_menu_p {
@@ -165,6 +168,8 @@ h1 {
   line-height: 33px;
   letter-spacing: 0.02em;
   text-align: left;
+  position: relative;
+  top: 10px;
 }
 
 .specialists_menu {

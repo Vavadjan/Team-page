@@ -218,15 +218,20 @@ h2 {
 }
 
 .specification_wrap {
-  margin-top: calc(100vw * 0.03125);
+  margin-top: calc(100vw * 0.125);
   position: relative;
   width: auto;
-  height: calc(100vw * 0.5659722222222222);
+  height: calc(100vw * 0.5104166666666667);
+  background-image: url("../img/SVG/specification_bg.svg");
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
 
 .specification_h3 {
   position: absolute;
-  top: calc(100vw * 0.1111111111111111);
+  top: 0px;
   left: calc(100vw * 0.0555555555555556);
   font-size: calc(0px + 90 * (100vw / 1440));
   font-family: Thunder;

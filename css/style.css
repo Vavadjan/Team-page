@@ -231,7 +231,7 @@ h2 {
 
 .specification_h3 {
   position: absolute;
-  top: 0px;
+  top: calc(100vw * 0.0118055555555556 * -1);
   left: calc(100vw * 0.0555555555555556);
   font-size: calc(0px + 90 * (100vw / 1440));
   font-family: Thunder;

@@ -125,7 +125,8 @@
 }
 
 a {
-  height: calc(100vw * 0.0166666666666667);
+  height: calc(100vw * 0.0166666666666667);  
+  text-decoration: none;
 }
 
 h1 {
@@ -281,4 +282,32 @@ h2 {
   color: #212121;
   font-family: Montserrat;
   line-height: calc(0px + 24 * (100vw / 1440));;
+}
+
+.button_list_of_specialists {
+  margin-top: calc(100vw * 0.0336805555555556);
+  margin-left: calc(100vw * 0.0569444444444444);
+  width: calc(100vw * 0.4);
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  text-decoration: none;
+  gap: calc(100vw * 0.0076388888888889);
+}
+
+.button_list_of_specialists_text {
+  color: #FFF;
+  font-size: calc(0px + 42 * (100vw / 1440));
+  font-family: Thunder;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: calc(0px + 0.84 * (100vw / 1440));;
+  display: flex;
+}
+
+.button_list_of_specialists_img {
+  width: calc(100vw * 0.0166666666666667);
+  vertical-align: auto;
 }

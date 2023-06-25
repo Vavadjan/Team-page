@@ -303,11 +303,31 @@ h2 {
   font-family: Thunder;
   font-style: italic;
   font-weight: 700;
-  letter-spacing: calc(0px + 0.84 * (100vw / 1440));;
+  letter-spacing: calc(0px + 0.84 * (100vw / 1440));
   display: flex;
 }
 
 .button_list_of_specialists_img {
   width: calc(100vw * 0.0166666666666667);
   vertical-align: auto;
+}
+
+.form_wrap_left {  
+  width: calc(100vw * 0.4555555555555556);
+  height: calc(100vw * 0.3027777777777778);
+  display: flex;
+}
+
+.form_h5 {
+  margin-top: calc(100vw * 0.0715277777777778);
+  margin-left: calc(100vw * 0.0555555555555556);
+  font-size: calc(0px + 70 * (100vw / 1440));
+  font-family: Thunder;
+  font-weight: 800;
+  line-height: calc(0px + 70 * (100vw / 1440));
+  background: linear-gradient(45deg, #161616, #260046, #2A004E, #500092, #3A006A, #2A004E, #2A004E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

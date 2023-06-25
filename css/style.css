@@ -243,3 +243,22 @@ h2 {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.specification_small_wrap {
+  width: calc(100vw * 0.8861111111111111);
+  height: calc(100vw * 0.1569444444444444);
+  padding-top: calc(100vw * 0.2569444444444444);
+  margin-left: calc(100vw * 0.0569444444444444);
+  display: flex;
+  justify-content: space-between;
+}
+
+.specification_textblock {
+  height: calc(100vw * 0.1569444444444444);
+  width: calc(100vw * 0.2923611111111111);
+  background-image: url("../img/SVG/specification_small_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 129%;
+  background-position: center;
+  display: flex;
+}

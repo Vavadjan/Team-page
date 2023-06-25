@@ -258,7 +258,27 @@ h2 {
   width: calc(100vw * 0.2923611111111111);
   background-image: url("../img/SVG/specification_small_bg.svg");
   background-repeat: no-repeat;
-  background-size: 129%;
+  background-size: 128.5%;
   background-position: center;
   display: flex;
+  flex-direction: column;
+}
+
+.specification_small_wrap_h4 {
+  margin-top: calc(100vw * 0.0208333333333333);
+  margin-left: calc(100vw * 0.0263888888888889);
+  color: #3F0173;
+  font-size: calc(0px + 42 * (100vw / 1440));
+  font-family: Thunder;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.84px;
+}
+
+.specification_small_wrap_p {
+  margin: auto calc(100vw * 0.0263888888888889) auto calc(100vw * 0.0263888888888889);
+  font-size: calc(0px + 18 * (100vw / 1440));
+  color: #212121;
+  font-family: Montserrat;
+  line-height: calc(0px + 24 * (100vw / 1440));;
 }

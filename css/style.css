@@ -312,6 +312,11 @@ h2 {
   vertical-align: auto;
 }
 
+.form_big_wrap {
+  display: flex;
+  
+}
+
 .form_wrap_left {  
   width: calc(100vw * 0.4555555555555556);
   height: calc(100vw * 0.3027777777777778);
@@ -331,3 +336,26 @@ h2 {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.form_wrap_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  margin-top: calc(100vw * 0.0104166666666667);
+  margin-bottom: calc(100vw * 0.0104166666666667);
+  padding-left: calc(100vw * 0.0166666666666667);
+  width: calc(100vw * 0.4333333333333333);
+  height: calc(100vw * 0.0319444444444444);
+  color: var(--text-not-filled-team, #AEAEAE);
+  font-size: calc(0px + 18 * (100vw / 1440));
+  font-family: Montserrat;
+  border: none;
+  background-image: url(../img/SVG/form_input\ bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+}
+

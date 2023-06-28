@@ -357,11 +357,11 @@ input {
   font-size: calc(0px + 18 * (100vw / 1440));
   font-family: Montserrat;
   border: none;
-  background-image: url(../img/SVG/form_input\ bg.svg);
+  background: url(../img/SVG/form_input\ bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  /* display: flex; */
-  display: block;
+  display: flex;
+  outline: none;
 }
 
 button[type="submit"] {

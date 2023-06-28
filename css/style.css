@@ -391,3 +391,11 @@ button[type="submit"] {
   letter-spacing:  calc(0px + 0.6px * (100vw / 1440));
   display: flex;
 }
+
+footer {
+  margin-top: calc(100vw * 0.0277777777777778);
+  /* width: calc(100vw * 0.9715277777777778); */
+  height: calc(100vw * 0.18125);
+  background: url(../img/SVG/footer_bg.svg) calc(100vw * 0.0173611111111111) calc(100vw * 0.0277777777777778)/97.15277777777778% auto no-repeat,
+    url(../img/SVG/footer_bg_2.svg) 0 0/100% auto no-repeat;
+}

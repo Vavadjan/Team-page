@@ -427,7 +427,7 @@ footer {
   left: calc(100vw * 0.2527777777777778);
   width: calc(100vw * 0.1930555555555556);
   color: #FFF;
-  font-size: 20px;
+  font-size: calc(0px + 20 * (100vw / 1440));
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -436,4 +436,21 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: calc(100vw * 0.0222222222222222);  
+}
+
+.footer_policies {
+  position: absolute;
+  top: calc(100vw * 0.1006944444444444);
+  left: calc(100vw * 0.2527777777777778);
+  width: calc(100vw * 0.2541666666666667);
+  color: #FFF;
+  font-size: calc(0px + 18 * (100vw / 1440));
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: calc(100vw * 0.0319444444444444); 
 }

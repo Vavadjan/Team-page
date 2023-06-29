@@ -485,3 +485,26 @@ footer {
   font-weight: 400;
   line-height: normal;
 }
+
+.footer_contactUs_button_a {
+  position: absolute;
+  right: calc(100vw * 0.0493055555555556);
+  bottom: calc(100vw * 0.0597222222222222);
+  width: calc(100vw * 0.1298611111111111);
+  height: calc(100vw * 0.0326388888888889);
+}
+
+.footer_contactUs_button {
+  width: calc(100vw * 0.1298611111111111);
+  height: calc(100vw * 0.0326388888888889);
+  border-radius: 50px;
+  border: none;
+  background: #9DF850;
+  color: #000;
+  font-size: calc(0px + 20 * (100vw / 1440));
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: calc(0px + 0.2 * (100vw / 1440));
+}

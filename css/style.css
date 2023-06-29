@@ -199,7 +199,7 @@ h2 {
 .specialists_menu_p {
   margin-left: calc(100vw * 0.0555555555555556);
   font-family: Thunder;
-  font-size: calc(16px + 20 * (100vw / 1440));
+  font-size: calc(0px + 36 * (100vw / 1440));
   font-weight: 700;
   line-height: 33px;
   letter-spacing: 0.02em;

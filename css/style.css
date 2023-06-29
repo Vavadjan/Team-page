@@ -203,18 +203,20 @@ h2 {
 }
 
 .specialists_menu_ol {
-  margin-left: calc(100vw * 0.0645833333333333);
-  margin-bottom: calc(100vw * 0.0151944444444444);
+  padding-left: calc(100vw * 0.0645833333333333);
+  padding-bottom: calc(100vw * 0.0151944444444444);
   display: flex;
   justify-content: space-between;  
   align-items: center;
-  width: 83.8vw;
+  width: calc(100vw * 0.8847222222222222);
   transform: rotate(-1.25deg);
+  
+  gap: calc(100vw * 0.0208333333333333);
 }
 
 .specialists_menu_a {  
   color: #FFF;
-  font-size: calc(0px + 24 * (100vw / 1440));
+  font-size: calc(0px + 19 * (100vw / 1440));
   font-family: Montserrat;
   font-weight: 500;
   display: flex;

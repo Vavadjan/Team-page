@@ -405,11 +405,12 @@ footer {
   height: calc(100vw * 0.1798611111111111);
   background: url(../img/SVG/footer_bg.svg) calc(100vw * 0.0173611111111111) calc(100vw * 0.0277777777777778)/97.15277777777778% auto no-repeat,
     url(../img/SVG/footer_bg_2.svg) 0 0/100% auto no-repeat;
+    position: relative;
 }
 
 .footer_logo {
-  margin-top: calc(100vw * 0.0625);
-  width: calc(100vw * 0.0902777777777778);
+  margin-top: calc(100vw * 0.0541666666666667);
+  width: calc(100vw * 0.1326388888888889);
   height: auto;  
 }
 
@@ -418,4 +419,21 @@ footer {
   margin-top: calc(100vw * 0.0208333333333333);
   display: flex;
   gap: calc(100vw * 0.0111111111111111);
+}
+
+.footer_mainmenu {
+  position: absolute;
+  top: calc(100vw * 0.0701388888888889);
+  left: calc(100vw * 0.2527777777777778);
+  width: calc(100vw * 0.1930555555555556);
+  color: #FFF;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: calc(100vw * 0.0222222222222222);  
 }

@@ -131,7 +131,7 @@ a {
 }
 
 h1 {
-  padding-left: calc(100vw * 0.0555555555555556);
+  padding-left: calc(100vw * 0.0155555555555556);
   padding-top: calc(100vw * 0.1111111111111111);
   font-family: "Thunder";
   font-style: normal;
@@ -160,8 +160,9 @@ h2 {
   background-image: url("../img/SVG/digitalHeroes_bg.svg");
   display: block;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: calc(100vw * 0.5395833333333333) calc(100vw * 0.125);
   background-position: auto;
+  line-height: calc(100vw * 0.125);
 }
 
 .wrap {

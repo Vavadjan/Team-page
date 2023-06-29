@@ -471,3 +471,17 @@ footer {
   align-items: center;
   gap: calc(100vw * 0.0319444444444444); 
 }
+
+.footer_copyright_p {
+  position: absolute;
+  width: calc(100vw * 0.2722222222222222);
+  bottom: calc(100vw * 0.0305555555555556);
+  left: calc(100vw * 0.3638888888888889);
+  color: #FFF;
+  text-align: center;
+  font-size: calc(0px + 16 * (100vw / 1440));
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

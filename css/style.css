@@ -78,6 +78,23 @@
   text-rendering: optimizeLegibility;
 }
 
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .header_wrap {
   width: 88%;
   margin-left: 5.5%;

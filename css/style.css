@@ -137,7 +137,7 @@ a:hover {
 }
 
 a {
-  height: calc(100vw * 0.0166666666666667);  
+  /* height: calc(100vw * 0.0166666666666667);   */
   text-decoration: none;
   display: flex;
 }
@@ -217,20 +217,21 @@ h2 {
 }
 
 .specialists_menu_ol {
-  padding-left: calc(100vw * 0.0645833333333333);
+  padding-left: calc(100vw * 0.0541666666666667);
+  padding-right: calc(100vw * 0.0541666666666667);
   padding-bottom: calc(100vw * 0.0151944444444444);
   display: flex;
   justify-content: space-between;  
   align-items: center;
-  width: calc(100vw * 0.8847222222222222);
-  transform: rotate(-1.25deg);
-  
-  gap: calc(100vw * 0.0208333333333333);
+  /* width: calc(100vw * 0.8847222222222222); */
+  transform: rotate(-1.25deg);  
+  gap: calc(100vw * 0.0347222222222222);
 }
 
-.specialists_menu_a {  
+.specialists_menu_a { 
+  text-align: center; 
   color: #FFF;
-  font-size: calc(0px + 19 * (100vw / 1440));
+  font-size: calc(0px + 22 * (100vw / 1440));
   font-family: Montserrat;
   font-weight: 500;
   display: flex;

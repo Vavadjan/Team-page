@@ -313,12 +313,16 @@ h2 {
   font-size: calc(0px + 18 * (100vw / 1440));
   color: #212121;
   font-family: Montserrat;
-  line-height: calc(0px + 24 * (100vw / 1440));;
+  line-height: calc(0px + 24 * (100vw / 1440));
 }
 
 .specification_small_wrap_p a{
-  color: #a436ff;
-  font: 400 18px/24px "Montserrat", sans-serif;
+  color: #A436FF;
+  font-size: calc(0px + 18 * (100vw / 1440));
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(0px + 24 * (100vw / 1440));
   text-decoration: underline;
 }
 
@@ -365,7 +369,6 @@ h2 {
 }
 
 .form_h5 {
-  /* padding-right: calc(100vw * 0.0291666666666667);   */
   font-size: calc(0px + 70 * (100vw / 1440));
   font-family: Thunder;
   font-weight: 800;
@@ -379,7 +382,6 @@ h2 {
 
 .form_wrap_right {
   width: calc(100vw * 0.4333333333333333);
-  /* padding-left: calc(100vw * 0.0222222222222222); */
   height: calc(100vw * 0.1923611111111111);
   display: flex;
   flex-direction: column;
@@ -412,10 +414,9 @@ input {
   border-style: solid;
   border-color: #c279ff;
   border-width: 1.2px 0 0 0;
-  width: 35px;
+  width: calc(100vw * 0.0243055555555556);
   height: 0px;
   display: flex;
-  width: 35px;
   height: 1.2px;
 }
 
@@ -425,10 +426,9 @@ input {
   border-style: solid;
   border-color: #c279ff;
   border-width: 1.2px 0 0 0;
-  width: 35px;
+  width: calc(100vw * 0.0243055555555556);
   height: 0px;
   display: flex;
-  width: 35px;
   height: 1.2px;
 } 
 

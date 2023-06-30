@@ -167,7 +167,7 @@ h1 {
   font-family: "Thunder";
   font-style: normal;
   font-weight: 800;
-  line-height: 1;
+  line-height: calc(100vw * 0.1319444444444444);
   font-size: calc(0px + 160 * (100vw / 1440));
   color: #ffffff;
 }
@@ -193,7 +193,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: calc(100vw * 0.5395833333333333) calc(100vw * 0.125);
   background-position: auto;
-  line-height: calc(100vw * 0.125);
+  line-height: calc(100vw * 0.1347222222222222);
 }
 
 .wrap {

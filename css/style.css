@@ -429,7 +429,7 @@ input {
   width: calc(100vw * 0.0243055555555556);
   height: 0px;
   display: flex;
-  height: 1.2px;
+  height: calc(100vw * 8.333333333333333e-4);
 } 
 
 .between_buttons {
@@ -445,7 +445,7 @@ input {
 button[type="submit"] {
   width: calc(100vw * 0.1118055555555556);
   height: calc(100vw * 0.0340277777777778);
-  border-radius: 50px;
+  border-radius: calc(100vw * 0.0347222222222222);
   background: #161616;
   border: none;
   display: flex;
@@ -474,7 +474,7 @@ button[type="submit"] {
 .whatsup_call {
   width: calc(100vw * 0.1722222222222222);
   height: calc(100vw * 0.0340277777777778);
-  border-radius: 50px;
+  border-radius: calc(100vw * 0.0347222222222222);
   background: #161616;
   border: none;
   display: flex;
@@ -496,12 +496,14 @@ footer {
 .footer_logo {
   margin-top: calc(100vw * 0.0541666666666667);
   width: calc(100vw * 0.1326388888888889);
+  height: calc(100vw * 0.0354166666666667);
   height: auto;  
 }
 
 .footer_social {
   width: calc(100vw * 0.1277777777777778);
-  margin-top: calc(100vw * 0.0208333333333333);
+  height: calc(100vw * 0.0166666666666667);
+  padding-top: calc(100vw * 0.0194444444444444);
   display: flex;
   gap: calc(100vw * 0.0111111111111111);
 }
@@ -565,7 +567,7 @@ footer {
 .footer_contactUs_button {
   width: calc(100vw * 0.1298611111111111);
   height: calc(100vw * 0.0326388888888889);
-  border-radius: 50px;
+  border-radius: calc(100vw * 0.0347222222222222);
   border: none;
   background: #9DF850;
   color: #000;

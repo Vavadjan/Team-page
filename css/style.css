@@ -139,8 +139,8 @@ a:hover {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: calc(0px + 24 * (100vw / 1440));
-  line-height: calc(0px + 24 * (100vw / 1440));
+  font-size: calc(0px + 20 * (100vw / 1440));
+  line-height: calc(0px + 20 * (100vw / 1440));
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -175,11 +175,13 @@ h1 {
 h2 {
   position: absolute;
   top: calc(100vw * 0.5701388888888889);
-  left: calc(100vw * 0.3590277777777778);
+  left: calc(100vw * 0.3368055555555556);
   font-size: calc(0px + 130 * (100vw / 1440));
   font-family: Thunder;
+  font-style: normal;
   font-weight: 800;
-  background: linear-gradient(45deg, #161616, #260046, #2A004E, #500092, #3A006A, #2A004E);
+  line-height: normal;
+  background: linear-gradient(101.39deg, rgba(22, 22, 22, 1) 0%, rgba(38, 0, 70, 1) 10.855409502983093%, rgba(42, 0, 78, 1) 24.104976654052734%, rgba(80, 0, 146, 1) 41.908568143844604%, rgba(58, 0, 106, 1) 70.63942551612854%, rgba(42, 0, 78, 1) 88.56981992721558%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -226,12 +228,12 @@ h2 {
 }
 
 .specialists_menu_ol li:nth-child(2) {
-  width: calc(100vw * 0.2555555555555556);
+  width: calc(100vw * 0.3125);
   /* width: 450px; */
 }
 
 .specialists_menu_ol li:nth-child(4) {
-  width: calc(100vw * 0.3125);
+  width: calc(100vw * 0.4027777777777778);
   /* width: 580px; */
 }
 

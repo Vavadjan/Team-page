@@ -401,6 +401,47 @@ input {
   outline: none;
 }
 
+.form_buttons_wrap {
+  display: flex; 
+  align-items: center;
+}
+
+.line_left {
+  margin-left: calc(100vw * 0.0138888888888889);
+  margin-right: calc(100vw * 0.0138888888888889/2);
+  border-style: solid;
+  border-color: #c279ff;
+  border-width: 1.2px 0 0 0;
+  width: 35px;
+  height: 0px;
+  display: flex;
+  width: 35px;
+  height: 1.2px;
+}
+
+.line_right {
+  margin-left: calc(100vw * 0.0138888888888889/2);
+  margin-right: calc(100vw * 0.0138888888888889);
+  border-style: solid;
+  border-color: #c279ff;
+  border-width: 1.2px 0 0 0;
+  width: 35px;
+  height: 0px;
+  display: flex;
+  width: 35px;
+  height: 1.2px;
+} 
+
+.between_buttons {
+  color: #C279FF;
+  font-size: calc(0px + 30 * (100vw / 1440));
+  font-family: Thunder;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: calc(0px + 0.6 * (100vw / 1440));
+}
+
 button[type="submit"] {
   width: calc(100vw * 0.1118055555555556);
   height: calc(100vw * 0.0340277777777778);
@@ -427,8 +468,19 @@ button[type="submit"] {
   letter-spacing: calc(0px + 0.6 * (100vw / 1440));
   display: flex; 
   font-style: normal;
-  line-height: normal;
-  
+  line-height: normal;  
+}
+
+.whatsup_call {
+  width: calc(100vw * 0.1722222222222222);
+  height: calc(100vw * 0.0340277777777778);
+  border-radius: 50px;
+  background: #161616;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(100vw * 0.0069444444444444);
 }
 
 footer {

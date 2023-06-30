@@ -402,7 +402,6 @@ input {
 }
 
 button[type="submit"] {
-  /* margin-top: calc(100vw * 0.0104166666666667); */
   width: calc(100vw * 0.1118055555555556);
   height: calc(100vw * 0.0340277777777778);
   border-radius: 50px;
@@ -428,7 +427,6 @@ button[type="submit"] {
   letter-spacing: calc(0px + 0.6 * (100vw / 1440));
   display: flex; 
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   
 }
@@ -440,7 +438,7 @@ footer {
   height: calc(100vw * 0.1798611111111111);
   background: url(../img/SVG/footer_bg.svg) calc(100vw * 0.0173611111111111) calc(100vw * 0.0277777777777778)/97.15277777777778% auto no-repeat,
     url(../img/SVG/footer_bg_2.svg) 0 0/100% auto no-repeat;
-    position: relative;
+  position: relative;
 }
 
 .footer_logo {

@@ -38,6 +38,26 @@
   text-rendering: optimizeLegibility;
 }
 
+/* Webfont: Thunder-ExtraBoldLC */
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLC.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLC.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLC.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLC.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("../fonts/THUNDER/THUNDER/Fonts/Web-TT/Thunder-ExtraBoldLC.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
 /* Webfont: Thunder-BoldLCItalic */
 @font-face {
   font-family: "ThunderIta";
@@ -136,12 +156,6 @@ a:hover {
   gap: calc(100vw * 0.0111111111111111);
 }
 
-a {
-  /* height: calc(100vw * 0.0166666666666667);   */
-  text-decoration: none;
-  display: flex;
-}
-
 .social_ico {
   width: calc(100vw * 0.0166666666666667); 
   height: calc(100vw * 0.0166666666666667);  
@@ -191,50 +205,47 @@ h2 {
 }
 
 .specialists_menu_wrap {
-  height: calc(100vw * 0.1145833333333333);
+  margin-top: calc(100vw * 0.1016666666666667);
   width: auto;
-  margin-top: calc(100vw * 0.0809090909090909); 
-}
-
-.specialists_menu_p {
-  margin-left: calc(100vw * 0.0555555555555556);
-  font-family: Thunder;
-  font-size: calc(0px + 36 * (100vw / 1440));
-  font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  position: relative;
-  top: 10px;
-}
-
-.specialists_menu {
-  width: auto;
-  height: calc(100vw * 0.0979166666666667);
+  height: calc(100vw * 0.0881944444444444);
   background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,
     url(../img/SVG/specialist_menu_bg2.svg) 0 0/100% auto no-repeat;
-    display: flex;
+  display: flex;
 }
 
 .specialists_menu_ol {
-  padding-left: calc(100vw * 0.0541666666666667);
-  padding-right: calc(100vw * 0.0541666666666667);
-  padding-bottom: calc(100vw * 0.0151944444444444);
+  padding-left: calc(100vw * 0.0715277777777778);
+  /* padding-right: calc(100vw * 0.0486111111111111); */
+  padding-bottom: calc(100vw * 0.0151944444444444);  
+  width: calc(100vw * 0.8520833333333333);
   display: flex;
   justify-content: space-between;  
-  align-items: center;
-  /* width: calc(100vw * 0.8847222222222222); */
+  align-items: center; 
   transform: rotate(-1.25deg);  
-  gap: calc(100vw * 0.0347222222222222);
+  gap: calc(100vw * 0.0333333333333333);
+}
+
+.specialists_menu_ol li:nth-child(2) {
+  width: calc(100vw * 0.2555555555555556);
+  /* width: 450px; */
+}
+
+.specialists_menu_ol li:nth-child(4) {
+  width: calc(100vw * 0.3125);
+  /* width: 580px; */
 }
 
 .specialists_menu_a { 
+  min-width: calc(100vw * 0.1402777777777778);
+  /* height: calc(100vw * 0.0375); */
+  display: flex;
   text-align: center; 
   color: #FFF;
   font-size: calc(0px + 22 * (100vw / 1440));
   font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
-  display: flex;
+  line-height: normal;
 }
 
 .specification_wrap {

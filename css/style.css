@@ -116,8 +116,8 @@ a:hover {
 }
 
 .header_wrap {
-  width: 88%;
-  margin-left: 5.5%;
+  padding-left: calc(100vw * 0.05555555556);
+  padding-right: calc(100vw * 0.05555555556);
   height: calc(100vw * 0.0555555555555556);
   display: flex;
   justify-content: space-between;
@@ -627,15 +627,17 @@ footer {
   }
 
   .header_wrap {
-    width: 88%;
-    margin-left: 5.5%;
-    height: calc(100vw * 0.0555555555555556);
+    padding-top: calc(100vw * 0.02666666667);
+    padding-left: calc(100vw * 0.05333333333);
+    padding-right: calc(100vw * 0.05333333333);
+    margin-top: calc(100vw * 0.1093333333);
+    height: calc(100vw * 0.1386666667);
     display: flex;
     justify-content: space-between;
   }
 
   .logo {
-    width: calc(100vw * 0.1326388888888889);
+    width: calc(100vw * 0.28);
     height: auto;
     display: flex;
     background-image: url(../img/SVG/logo.svg);
@@ -646,17 +648,7 @@ footer {
   }
 
   .mainmenu {
-    height: auto;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
-    font-size: calc(0px + 20 * (100vw / 1440));
-    line-height: calc(0px + 20 * (100vw / 1440));
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: calc(100vw * 0.0222222222222222);
+    display: none;
   }
 
   .social {
@@ -664,22 +656,22 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: calc(100vw * 0.0111111111111111);
+    gap: calc(100vw * 0.04266666667);
   }
 
   .social_ico {
-    width: calc(100vw * 0.0166666666666667);
-    height: calc(100vw * 0.0166666666666667);
+    width: calc(100vw * 0.064);
+    height: calc(100vw * 0.064);
   }
 
   h1 {
-    padding-left: calc(100vw * 0.0155555555555556);
-    padding-top: calc(100vw * 0.1111111111111111);
+    padding-left: calc(100vw * 0.06133333333);
+    padding-top: calc(100vw * 0.128);
     font-family: "Thunder";
     font-style: normal;
     font-weight: 800;
-    line-height: calc(100vw * 0.1319444444444444);
-    font-size: calc(0px + 160 * (100vw / 1440));
+    line-height: calc(100vw * 0.1866666667);
+    font-size: calc(0px + 70 * (100vw / 375));
     color: #ffffff;
   }
 
@@ -709,12 +701,12 @@ footer {
 
   .highlight {
     color: #161616;
-    background-image: url("../img/SVG/digitalHeroes_bg.svg");
+    background-image: url("../img/mobileSVG/mobile_digitalHeroes_bg.svg");
     display: block;
     background-repeat: no-repeat;
-    background-size: calc(100vw * 0.5395833333333333) calc(100vw * 0.125);
+    background-size: calc(100vw * 0.8773333333) calc(100vw *	0.2106666667	);
     background-position: auto;
-    line-height: calc(100vw * 0.1347222222222222);
+    line-height: calc(100vw *	0.2106666667	);
   }
 
   .wrap {

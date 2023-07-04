@@ -907,7 +907,8 @@ footer {
     color: #3f0173;
     font-size: calc(0px + 42 * (100vw / 375));
     font-family: Thunder;
-    font-style: italic;
+    /* font-style: italic; */
+    font-style: normal;
     font-weight: 700;
     letter-spacing: calc(0px + 0.84 * (100vw / 375));
   }

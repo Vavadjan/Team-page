@@ -719,11 +719,14 @@ footer {
   }
 
   .specialists_menu_wrap {
+    overflow-x: scroll;
+    white-space: nowrap;
     margin-top: calc(100vw *	0.4533333333	);
-    height: calc(100vw * 0.0881944444444444);
+    width: 1440px;
+    height: 108px;
     background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,
       url(../img/SVG/specialist_menu_bg2.svg) 0 0/100% auto no-repeat;
-    display: flex;
+    /* display: flex; */
   }
 
   .specialists_menu_ol {

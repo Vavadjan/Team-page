@@ -867,28 +867,32 @@ footer {
   }
 
   .specification_textblock {
+     margin-left: calc(100vw *	0.02666666667	);
+    /* padding-left: 10px; */
     height: calc(100vw * 0.6026666667);
     /* height: 226px; */
-    width: calc(100vw * 0.9466666667);
-    /* width: 355px; */
-    background-image: url("../img/mobileSVG/mobile_specification_small_bg.svg");
-    background-repeat: no-repeat;
-    background-size: 105%;
-    background-position: center;
+    width: calc(100vw *	0.9013333333	);
+    /* width: 338px; */
+    transform: skew(-4deg, 0deg);
+    background: none;
+    border-radius: 25px;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     position: relative;
   }
 
   .specification_small_wrap div:nth-child(3) {
+    margin-left: calc(100vw *	0.02666666667	);
+    /* padding-left: 10px; */
     height: calc(100vw * 0.7306666667);
     /* height: 274px; */
-    width: calc(100vw * 0.9466666667);
-    /* width: 355px; */
-    background-image: url("../img/mobileSVG/mobile_specification_small_bg2.svg");
-    background-repeat: no-repeat;
-    background-size: 106%;
-    background-position: center;
+    width: calc(100vw *	0.9013333333	);
+    /* width: 338px; */
+    transform: skew(-4deg, 0deg);
+    background: none;
+    border-radius: 25px;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
   }
@@ -896,9 +900,9 @@ footer {
   .specification_small_wrap_h4 {
     padding-top: calc(100vw * 0.08);
     /* padding-top: 30px; */
-    padding-left: calc(100vw * 0.07466666667);
-    /* padding-left: 28px; */
-    padding-right: calc(100vw * 0.05333333333);
+    padding-left: calc(100vw *	0.05066666667	);
+    /* padding-left: 19px; */
+    /* padding-right: calc(100vw * 0.05333333333); */
     /* padding-right: 20px; */
     color: #3f0173;
     font-size: calc(0px + 42 * (100vw / 375));
@@ -910,8 +914,8 @@ footer {
 
   .specification_small_wrap_p {
     padding: calc(100vw * 0.04266666667) calc(100vw * 0.05066666667)
-      0px calc(100vw * 0.07466666667);
-    /* padding: 16px 19px 0px 28px; */
+      0px calc(100vw *	0.05066666667	);
+    /* padding: 16px 19px 0px 19px; */
     font-size: calc(0px + 16 * (100vw / 375));
     color: #212121;
     font-family: Montserrat;

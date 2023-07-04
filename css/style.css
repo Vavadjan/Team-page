@@ -271,7 +271,7 @@ h2 {
   background-image: url("../img/SVG/specification_bg.svg");
   display: block;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -279,6 +279,8 @@ h2 {
   position: absolute;
   top: calc(100vw * 0.0118055555555556 * -1);
   left: calc(100vw * 0.0555555555555556);
+  width: calc(100vw * 0.5090277778);
+  /* width: 733px; */
   font-size: calc(0px + 90 * (100vw / 1440));
   font-family: Thunder;
   font-weight: 800;
@@ -303,7 +305,7 @@ h2 {
   width: calc(100vw * 0.8861111111111111);
   height: calc(100vw * 0.1569444444444444);
   padding-top: calc(100vw * 0.2569444444444444);
-  margin-left: calc(100vw * 0.0569444444444444);
+  padding-left: calc(100vw * 0.0569444444444444);
   display: flex;
   justify-content: space-between;
 }
@@ -749,7 +751,7 @@ footer {
     border-radius: 6px;
   }
 
-  ::-webkit-scrollbar-track { 
+  ::-webkit-scrollbar-track {
     padding: 10px;
     height: 3px;
     border-radius: 6px;
@@ -805,25 +807,31 @@ footer {
   }
 
   .specification_wrap {
-    margin-top: calc(100vw * 0.125);
+    margin-top: calc(100vw * 0.1333333333);
+    /* margin-top: 50px; */
     position: relative;
     width: auto;
-    height: calc(100vw * 0.4548611111111111);
-    background-image: url("../img/SVG/specification_bg.svg");
+    height: calc(100vw * 2.888);
+    /* height: 1083px; */
+    background-image: url("../img/mobileSVG/mobile_specification_bg.svg");
     display: block;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
   }
 
   .specification_h3 {
     position: absolute;
-    top: calc(100vw * 0.0118055555555556 * -1);
-    left: calc(100vw * 0.0555555555555556);
-    font-size: calc(0px + 90 * (100vw / 1440));
+    top: calc(100vw * 0.05866666667 * -1);
+    /* top: -22px; */
+    left: calc(100vw * 0.02666666667);
+    /* left: 10px; */
+    width: calc(100vw * 0.6746666667);
+    /* width: 253px; */
+    font-size: calc(0px + 42 * (100vw / 375));
     font-family: Thunder;
     font-weight: 800;
-    line-height: calc(0px + 90 * (100vw / 1440));
+    line-height: calc(0px + 42 * (100vw / 375));
     background: linear-gradient(
       45deg,
       #161616,
@@ -841,20 +849,31 @@ footer {
   }
 
   .specification_small_wrap {
-    width: calc(100vw * 0.8861111111111111);
-    height: calc(100vw * 0.1569444444444444);
-    padding-top: calc(100vw * 0.2569444444444444);
-    margin-left: calc(100vw * 0.0569444444444444);
+    width: calc(100vw * 0.9466666667);
+    /* width: 355px; */
+    height: calc(100vw * 2.096);
+    /* height: 786px; */
+    padding-top: calc(100vw * 0.6613333333);
+    /* padding-top: 248px; */
+    padding-left: calc(100vw * 0.02666666667);
+    /* padding-left: 10px; */
+    padding-right: calc(100vw * 0.02666666667);
+    /* padding-right: 10px; */
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: calc(100vw * 0.08);
+    /* gap: 30px; */
   }
 
   .specification_textblock {
-    height: calc(100vw * 0.1569444444444444);
-    width: calc(100vw * 0.2923611111111111);
-    background-image: url("../img/SVG/specification_small_bg.svg");
+    height: calc(100vw * 0.6026666667);
+    /* height: 226px; */
+    width: calc(100vw * 0.9466666667);
+    /* width: 355px; */
+    background-image: url("../img/mobileSVG/mobile_specification_small_bg.svg");
     background-repeat: no-repeat;
-    background-size: 128.5%;
+    background-size: 107%;
     background-position: center;
     display: flex;
     flex-direction: column;

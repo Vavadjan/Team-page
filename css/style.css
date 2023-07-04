@@ -732,7 +732,7 @@ footer {
     /* width: 100%; */
     margin-top: calc(100vw *	0.4533333333	);
     height: 108px;
-    display: flex;
+    /* display: flex; */
   }  
 
   .specialists_menu {

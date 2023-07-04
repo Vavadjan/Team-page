@@ -214,8 +214,14 @@ h2 {
     url(../img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
 }
 
-.specialists_menu_wrap {
+.specialists_wrap {
   margin-top: calc(100vw * 0.1016666666666667);
+  width: 100%;
+  height: calc(100vw * 0.0881944444444444);
+  /* display: flex; */
+}
+
+.specialists_menu {
   width: auto;
   height: calc(100vw * 0.0881944444444444);
   background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,
@@ -722,7 +728,7 @@ footer {
     overflow-x: scroll;
     white-space: nowrap;
     margin-top: calc(100vw *	0.4533333333	);
-    width: 1440px;
+    width: 100%;
     height: 108px;
     background: url(../img/SVG/specialist_menu_bg1.svg) 0 0/100% auto no-repeat,
       url(../img/SVG/specialist_menu_bg2.svg) 0 0/100% auto no-repeat;

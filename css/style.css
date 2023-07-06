@@ -655,7 +655,7 @@ footer {
 }
 
 /* Применяет стили к элементам, когда размер экрана находится в диапазоне от 320px до 767px */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   a:link {
     text-decoration: none;
     color: #ffffff;

@@ -152,7 +152,7 @@ span {
 
 .los_listOFskills {
   position: absolute;
-  top: calc(100vw *	-0.07291666667	);
+  top: calc(100vw * -0.07291666667);
   /* top: -105px; */
   left: calc(100vw * 0.05555555556);
   /* left: 80px; */
@@ -162,7 +162,15 @@ span {
   font-weight: 700;
   line-height: calc(0px + 90 * (100vw / 1440));
   letter-spacing: calc(0px + 1.4 * (100vw / 1440));
-  background: linear-gradient(45deg, #161616, #260046, #2a004e, #500092, #3a006a, #2a004e);
+  background: linear-gradient(
+    45deg,
+    #161616,
+    #260046,
+    #2a004e,
+    #500092,
+    #3a006a,
+    #2a004e
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -174,7 +182,23 @@ span {
   /* width: 214px; */
   /* height: calc(100vw *	0.03125	); */
   /* height: 45px; */
-  /* margin: calc(100vw * 0.04097222222); */
+  /* margin: calc(100vw * 0.04097222222) 0 0 0; */
+  /* margin: 59px 0 0 0; */
+  padding: 0 0 0 0;
+  /* padding: 0 0 0 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: calc(100vw * 0.02083333333);
+  /* gap: 30px; */
+}
+
+.los_listOFskills_rightSMALLwrap {
+  /* width: calc(100vw * 0.1486111111); */
+  /* width: 214px; */
+  /* height: calc(100vw *	0.03125	); */
+  /* height: 45px; */
+  /* margin: calc(100vw * 0.04097222222) 0 0 0; */
   /* margin: 59px 0 0 0; */
   padding: 0 0 0 0;
   /* padding: 0 0 0 0; */
@@ -188,4 +212,59 @@ span {
 .list_skill_wrap {
   height: calc(100vw * 0.03125);
   /* height: 45px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: ;
+}
+
+.los_nameOFskill {
+  color: #1f1f1f;
+  text-align: right;
+  font-family: Thunder;
+  font-size: calc(0px + 38 * (100vw / 1440));
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: calc(0px + 0.76 * (100vw / 1440));
+}
+
+.los_blockWHITHstars {
+  width: calc(100vw * 0.2361111111);
+  /* width: 340px; */
+  height: calc(100vw * 0.02638888889);
+  /* height: 38px; */
+  /* margin: calc(100vw * 0.04097222222) 0 0 0; */
+  /* margin: 59px 0 0 0; */
+  padding: 0 calc(100vw * 0.006944444444) calc(100vw * 0.001388888889)
+    calc(100vw * 0.006944444444);
+  /* padding: 0 10px 2px 10px; */
+  border-radius: 40px;
+  box-shadow: 0px 0px 26px 0px rgba(0, 144, 55, 0.14);
+  background: linear-gradient(90deg, #f6ff92 0%, #c5ff94 100%);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.los_blockWHITHstars img {
+  width: calc(100vw * 0.2361111111);
+  /* width: 340px; */
+  height: calc(100vw * 0.02638888889);
+  /* height: 38px; */
+  /* margin: calc(100vw * 0.04097222222) 0 0 0; */
+  /* margin: 59px 0 0 0; */
+  /* padding: 0 calc(100vw * 0.006944444444) 0 calc(100vw * 0.006944444444); */
+  /* padding: 0 10px 0 10px; */
+}
+
+.los_icon {
+  width: calc(100vw * 0.02361111111);
+  /* width: 34px; */
+  height: calc(100vw * 0.02361111111);
+  /* height: 34px; */
+  margin: 0 calc(100vw * 0.002777777778) 0 calc(100vw * 0.01111111111);
+  /* margin: 0 4px 0 16px; */
+  /* padding: 0 calc(100vw * 0.006944444444) 0 calc(100vw * 0.006944444444); */
+  /* padding: 0 10px 0 10px; */
+  /* background: url(../img/SVG/listOFskills/Line_1.svg) 0 0/100% auto no-repeat; */
 }

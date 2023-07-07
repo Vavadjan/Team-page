@@ -139,21 +139,40 @@ span {
   /* width: 214px; */
   /* height: calc(100vw * 0.03402777778); */
   /* height: 49px; */
-  margin: calc(100vw * 0.04097222222);
+  margin: calc(100vw * 0.04097222222) 0 0 0;
   /* margin: 59px 0 0 0; */
-  /* padding: calc(100vw * 0.006944444444) calc(100vw * 0.02083333333) 0
-    calc(100vw * 0.02083333333); */
-  /* padding: 10px 30px 0 30px; */
+  padding: 0 calc(100vw * 0.05555555556) 0 calc(100vw * 0.05555555556);
+  /* padding: 0 80px 0 80px; */
   display: flex;
   justify-content: space-between;
   /* gap: calc(100vw * 0.02083333333); */
   /* gap: 30px; */
+  position: relative;
+}
+
+.los_listOFskills {
+  position: absolute;
+  top: calc(100vw *	-0.07291666667	);
+  /* top: -105px; */
+  left: calc(100vw * 0.05555555556);
+  /* left: 80px; */
+  font-family: Thunder;
+  font-size: calc(0px + 70 * (100vw / 1440));
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(0px + 90 * (100vw / 1440));
+  letter-spacing: calc(0px + 1.4 * (100vw / 1440));
+  background: linear-gradient(45deg, #161616, #260046, #2a004e, #500092, #3a006a, #2a004e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .los_listOFskills_leftSMALLwrap {
   /* width: calc(100vw * 0.1486111111); */
   /* width: 214px; */
-  height: calc(100vw *	0.03125	);
+  /* height: calc(100vw *	0.03125	); */
   /* height: 45px; */
   /* margin: calc(100vw * 0.04097222222); */
   /* margin: 59px 0 0 0; */
@@ -163,5 +182,10 @@ span {
   flex-direction: column;
   justify-content: space-between;
   gap: calc(100vw * 0.02083333333);
-  /* gap: 30px; */ 
+  /* gap: 30px; */
+}
+
+.list_skill_wrap {
+  height: calc(100vw * 0.03125);
+  /* height: 45px; */
 }

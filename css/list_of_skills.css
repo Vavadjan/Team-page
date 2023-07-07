@@ -33,7 +33,7 @@ header {
   /* height: 480px; */
   margin: calc(100vw * 0.02777777778) 0 0 0;
   /* margin: 40px 0 0 0; */
-  background-image: url(/img/Portraits/viktoria_kabachenko.jpg);
+  background-image: url(../img/Portraits/viktoria_kabachenko.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }

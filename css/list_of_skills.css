@@ -33,7 +33,7 @@ header {
   /* height: 480px; */
   margin: calc(100vw * 0.02777777778) 0 0 0;
   /* margin: 40px 0 0 0; */
-  background-image: url(../img/Portraits/viktoria_kabachenko.jpg);
+  background-image: url(/img/Portraits/viktoria_kabachenko.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -135,5 +135,33 @@ span {
 }
 
 .los_listOFskills_wrap {
+  /* width: calc(100vw * 0.1486111111); */
+  /* width: 214px; */
+  /* height: calc(100vw * 0.03402777778); */
+  /* height: 49px; */
+  margin: calc(100vw * 0.04097222222);
+  /* margin: 59px 0 0 0; */
+  /* padding: calc(100vw * 0.006944444444) calc(100vw * 0.02083333333) 0
+    calc(100vw * 0.02083333333); */
+  /* padding: 10px 30px 0 30px; */
+  display: flex;
+  justify-content: space-between;
+  /* gap: calc(100vw * 0.02083333333); */
+  /* gap: 30px; */
+}
 
+.los_listOFskills_leftSMALLwrap {
+  /* width: calc(100vw * 0.1486111111); */
+  /* width: 214px; */
+  height: calc(100vw *	0.03125	);
+  /* height: 45px; */
+  /* margin: calc(100vw * 0.04097222222); */
+  /* margin: 59px 0 0 0; */
+  padding: 0 0 0 0;
+  /* padding: 0 0 0 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: calc(100vw * 0.02083333333);
+  /* gap: 30px; */ 
 }

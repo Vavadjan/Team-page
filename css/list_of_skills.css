@@ -17,8 +17,8 @@ a:hover {
 
 header {
   width: auto;
-  height: calc(100vw * 0.4236111111);
-  /* height: 610px; */
+  height: calc(100vw *	0.4861111111	);
+  /* height: 700px; */
   padding: 0 calc(100vw * 0.05555555556) 0 calc(100vw * 0.05555555556);
   /* padding: 0 80px 0 80px; */
   background: url(../img/SVG/listOFskills/los_bg1.svg) 0 0/100% auto no-repeat,
@@ -83,7 +83,7 @@ header {
   line-height: normal;
 }
 
-.los_areasOFexhtrtise {
+.los_areasOFexpertise {
   margin: calc(100vw * 0.01388888889) 0 0 0;
   /* margin: 20px 0 0 0; */
   color: #fff;

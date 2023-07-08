@@ -35,6 +35,13 @@ header {
   /* margin: 40px 0 0 0; */
  }
 
+ .los_photo img {
+  width: calc(100vw * 0.3090277778);
+  /* width: 445px; */
+  height: calc(100vw * 0.3333333333);
+  /* height: 480px; */
+ }
+
 .los_headerRIGHTblock {
   width: calc(100vw * 0.5631944444);
   /* width: 811px; */

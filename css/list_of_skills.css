@@ -33,10 +33,7 @@ header {
   /* height: 480px; */
   margin: calc(100vw * 0.02777777778) 0 0 0;
   /* margin: 40px 0 0 0; */
-  background-image: url(../img/Portraits/viktoria_kabachenko.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+ }
 
 .los_headerRIGHTblock {
   width: calc(100vw * 0.5631944444);
@@ -266,4 +263,26 @@ span {
   /* padding: 0 calc(100vw * 0.006944444444) 0 calc(100vw * 0.006944444444); */
   /* padding: 0 10px 0 10px; */
   /* background: url(../img/SVG/listOFskills/Line_1.svg) 0 0/100% auto no-repeat; */
+}
+
+.los_cloud_wrap {
+  width: calc(100vw *	0.5555555556	);
+  /* width: 800px; */
+  height: calc(100vw *	0.4694444444	);
+  /* height: 676px; */
+  margin: calc(100vw *	0.03472222222	) auto 0 auto;
+  /* margin: 50px auto 0 auto; */
+  /* padding: 0 calc(100vw * 0.006944444444) 0 calc(100vw * 0.006944444444); */
+  /* padding: 0 10px 0 10px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.los_cloud_wrap img {
+  display: flex;
+  width: calc(100vw *	0.5555555556	);
+  /* width: 800px; */
+  height: calc(100vw *	0.4694444444	);
+  /* height: 676px; */
 }

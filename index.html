@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web-you Team page</title>
+    <title>Web-you Strona zespołu</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/slider.js"></script>
 </head>
 <body>
     <header>
         <div class="header_wrap">
             <div class="logo"></div>           
             <ol class="mainmenu">
-                <li><a href="#">All specialists</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Wszyscy specjaliści</a></li>
+                <li><a href="#">Skontaktuj się z nami</a></li>
             </ol>            
             <div class="social">
                 <a href="#"><img class="social_ico" src="./img/SVG/facebook.svg" alt=""></a>
@@ -28,33 +29,52 @@
         </div>        
     </header>
     <div class="wrap">
-        <h1>&nbsp&nbspMeet Web You</br>&nbsp&nbspTeam of</br><span class="highlight">&nbsp&nbspDigital Heroes</span></h1>
+        <h1>&nbsp&nbspPoznać Web You</br>&nbsp&nbspZespół</br><span class="highlight">&nbsp&nbspCyfrowe bohaterowie</span></h1>
     </div>
-    <h2>Choose the perfect team for your project:</h2>
+    <h2>Wybierz idealny zespół do swojego projektu:</h2>
     <div class="specialists_wrap">
         <div class="specialists_menu">
             <ol class="specialists_menu_ol">
-                <li><a  class="specialists_menu_a" href="#">App development team</a></li>
-                <li><a  class="specialists_menu_a" href="#">Software development team</a></li>
-                <li><a  class="specialists_menu_a" href="#">Web-sites and Web-shops development team</a></li>
-                <li><a  class="specialists_menu_a" href="#">Design and Animation 2D/3D team </a></li>
+                <li><a  class="specialists_menu_a" href="#">Zespół programowania aplikacji</a></li>
+                <li><a  class="specialists_menu_a" href="#">Zespół programistycznego oprogramowania</a></li>
+                <li><a  class="specialists_menu_a" href="#">Zespół programistycznych i programów internetowych i sklepów internetowych</a></li>
+                <li><a  class="specialists_menu_a" href="#">Zespół projektowania i animacji 2D/3D </a></li>
             </ol>
         </div>
     </div>
+    <div class="slider">
+        <div class="slider-item active">
+            <img src="./img/SVG/listOFskills/profile_card_1.jpg" alt="Слайд 1">
+        </div>
+        <div class="slider-item">
+            <img src="slide2.jpg" alt="Слайд 2">
+        </div>
+        <div class="slider-item">
+            <img src="slide3.jpg" alt="Слайд 3">
+        </div>
+        <!-- Добавьте остальные слайды здесь -->
+
+        <div class="slider-nav">
+            <button onclick="changeSlide(0)">1</button>
+            <button onclick="changeSlide(1)">2</button>
+            <button onclick="changeSlide(2)">3</button>
+            <!-- Добавьте остальные кнопки здесь -->
+        </div>
+    </div>
     <div class="specification_wrap">
-        <h3 class="specification_h3">Get excellent result and maximum of profit with team of real professionals</h3>
+        <h3 class="specification_h3">Uzyskaj doskonały wynik i maksymalny zysk z zespołem prawdziwych profesjonalistów</h3>
         <div class="specification_small_wrap">
             <div class="specification_textblock">
-                <h4 class="specification_small_wrap_h4">01. Explore our team and specialists skills</h4>
-                <p class="specification_small_wrap_p">Explore our professional digital specialists and their skills, you can ask any questions, just <a href="#">Contact us</a></p>
+                <h4 class="specification_small_wrap_h4">01. Poznaj nasz zespół i specjalistów</h4>
+                <p class="specification_small_wrap_p">Poznaj naszych profesjonalnych specjalistów cyfrowych i ich umiejętności, możesz zadawać wszelkie pytania <a href="#">Skontaktuj się z nami</a></p>
             </div>
             <div class="specification_textblock">
-                <h4 class="specification_small_wrap_h4">02. Schedule the call with Business Analyst</h4>
-                <p class="specification_small_wrap_p">Discuss your project with our Business Analyst, we’ll build the development plan and estimate it.</p>
+                <h4 class="specification_small_wrap_h4">02. Zaplanuj połączenie z analitykiem biznesowym</h4>
+                <p class="specification_small_wrap_p">Omów swój projekt z naszym analitykiem biznesowym, zbudujemy plan rozwoju i go oszacujemy.</p>
             </div>
             <div class="specification_textblock">
-                <h4 class="specification_small_wrap_h4">03. Get awesome result!</h4>
-                <p class="specification_small_wrap_p">Our specialists will start work and show you the results by milestones. You’ll spend minimum time to get the maximum of result and value for your project and business!</p>
+                <h4 class="specification_small_wrap_h4">03. Uzyskaj niesamowity wynik!</h4>
+                <p class="specification_small_wrap_p">Nasi specjaliści rozpoczną pracę i pokażą wyniki kamieni milowych.Spędzisz minimalny czas, aby uzyskać maksymalny wynik i wartość dla swojego projektu i biznesu!</p>
             </div>
         </div>
         <!-- <a class="button_list_of_specialists" href="">
@@ -64,25 +84,25 @@
     </div>
     <div class="form_big_wrap">
         <div class="form_wrap_left">
-            <h5 class="form_h5">Contact us if you have any questions or want to discuss the project</h5>
+            <h5 class="form_h5">Skontaktuj się z nami, jeśli masz jakieś pytania lub chcesz omówić projekt</h5>
         </div>
         <form class="form_wrap_right">
-            <input type="text" name="UserName" placeholder="Enter your name"/>
-            <input type="email" name="E-mail" placeholder="Enter your email"/>
-            <textarea type="textarea" name="ProjectTitle" placeholder="Enter the project title / question (optional)"></textarea>
+            <input type="text" name="UserName" placeholder="Wpisz swoje imię"/>
+            <input type="email" name="E-mail" placeholder="Wprowadź swój email"/>
+            <textarea type="textarea" name="ProjectTitle" placeholder="Wprowadź tytuł / pytanie (opcjonalnie)"></textarea>
             <div class="form_buttons_wrap">
                 <button type="submit" name="Send" value="Send">
                     <img class="button_rocket" src="./img/SVG/ion_rocket-outline.svg">
-                    <p class="button_send_p">Send</p>
+                    <p class="button_send_p">Wysłać</p>
                 </button>
                 <div class="or_whith_lines">
                     <div class="line_left"></div>
-                    <p class="or">or</p>
+                    <p class="or">Lub</p>
                     <div class="line_right"></div>
                 </div>
                 <button class="whatsup_call">
                     <img class="button_rocket" src="./img/SVG/whatsapp.svg">
-                    <p class="button_send_p">WhatsApp call</p>
+                    <p class="button_send_p">WhatsApp dzwonić</p>
                 </button>
             </div>    
         </form>
@@ -97,16 +117,16 @@
             <a href="#"><img class="social_ico" src="./img/SVG/up.svg" alt=""></a>
         </div>
         <ol class="footer_mainmenu">
-            <li><a href="#">All specialists</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Wszyscy specjaliści</a></li>
+            <li><a href="#">Skontaktuj się z nami</a></li>
         </ol> 
         <ol class="footer_policies">
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Polityka prywatności</a></li>
+            <li><a href="#">Regulamin</a></li>
         </ol>        
-        <p class="footer_copyright_p">Copyright ⓒ 2023 Web-you. All Rights Reserved.</p>        
+        <p class="footer_copyright_p">Prawo autorskie ⓒ 2023 Web-you. Wszelkie prawa zastrzeżone.</p>        
         <a href="#" class="footer_contactUs_button_a">
-            <button class="footer_contactUs_button">Contact Us</button>
+            <button class="footer_contactUs_button">Skontaktuj się z nami</button>
         </a>
     </footer>
 </body>

@@ -1,13 +1,13 @@
 .header {
 
-	&_wrap {
+	&_header-wrap {
 		min-height: 80px;
 		
 	}
 }
 
 .logo {
-	margin:15px 0 0 calc(100vw * calc(100vw * 0.07638888889));
+	margin:15px 0 0 calc(100vw * 0.07638888889);
 	min-height: 51px;
 	min-width: 191px;
 	display: flex;
@@ -19,17 +19,17 @@
 	}
 }
 
-.allLogoWords {
+.all-logo-words {
 	margin: 8px 0 -2px 9px;
 	display: flex;
 	align-items: flex-end;
 	flex-direction: column;
 }
 
-.webyouWords {
+.webyou-words {
 	display: flex;}
 
-.webWord {
+.web-word {
 	display: flex;
 	// color: #FFF;
 	font-family: Raleway;
@@ -39,7 +39,7 @@
 	line-height: normal;
 }
 
-.youWord {
+.you-word {
 	display: flex;
 	// color: #FFF;
 	font-family: Raleway;
@@ -49,7 +49,7 @@
 	line-height: normal;
 }
 
-.digitalagencyWords {
+.digitalagency-words {
 	display: flex;
 	// color: #FFF;
 	font-family: Raleway;
@@ -60,19 +60,3 @@
 	flex-shrink: 1;
 	white-space: nowrap;
 }
-
-.mainMenu {}
-
-.social {
-
-	&_ico {}
-}
-
-.wrap {
-	margin-top: calc(100vw * 0.0555555555555556 * (-1));
-	min-height: calc(100vw * 0.6666666666666667);
-	width: auto;
-	background: url(/img/SVG/underhedder_bg1.svg) 0 0/100% auto no-repeat, url(/img/SVG/underhedder_bg2.svg) 0 0/100% auto no-repeat;
-}
-
-.highlight {}

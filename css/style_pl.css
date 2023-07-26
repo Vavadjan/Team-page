@@ -1,4 +1,4 @@
-.header_wrap {
+.header_header-wrap {
   min-height: 80px;
 }
 
@@ -6,28 +6,26 @@
   margin: 15px 0 0 7.638888889vw;
   min-height: 51px;
   min-width: 191px;
-  margin: 15 0 0 80;
   display: flex;
 }
-
 .logo_img {
   margin: 0 0 1px 0;
   display: flex;
   align-items: start;
 }
 
-.allLogoWords {
+.all-logo-words {
   margin: 8px 0 -2px 9px;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
 }
 
-.webyouWords {
+.webyou-words {
   display: flex;
 }
 
-.webWord {
+.web-word {
   display: flex;
   font-family: Raleway;
   font-size: 22px;
@@ -36,7 +34,7 @@
   line-height: normal;
 }
 
-.youWord {
+.you-word {
   display: flex;
   font-family: Raleway;
   font-size: 22px;
@@ -45,7 +43,7 @@
   line-height: normal;
 }
 
-.digitalagencyWords {
+.digitalagency-words {
   display: flex;
   font-family: Raleway;
   font-size: 14px;
@@ -55,4 +53,3 @@
   flex-shrink: 1;
   white-space: nowrap;
 }
-

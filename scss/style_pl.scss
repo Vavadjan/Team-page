@@ -1,3 +1,7 @@
+:root {
+	--padding-left-and-right: 5.55555555555556vw;
+}
+
 header {
 	position: fixed;
 	top: 0;
@@ -14,7 +18,7 @@ header {
 }
 
 .logo {
-	margin:15px 0 0 calc(100vw * 0.07638888889);
+	margin:15px 0 0 var(--padding-left-and-right);
 	min-height: 51px;
 	min-width: 191px;
 	display: flex;
@@ -70,7 +74,10 @@ header {
 
 .main-menu {}
 
-.social {}
+.social {
+	display: flex;
+	margin: 0 var(--padding-left-and-right) 0 0;
+}
 
 .social-ico {}
 
@@ -85,7 +92,7 @@ header {
 	position: relative;
 
 	h1{
-		padding: 140px 0 277px 0;
+		padding: 140px 0 277px var(--padding-left-and-right);
 		color: #FFF;
 		font-family: Thunder;
 		font-size: 140px;

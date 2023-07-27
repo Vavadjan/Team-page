@@ -68,9 +68,19 @@ header_header-wrap {
 
 .under-h1wrap {
   min-height: 22.9166666667vw;
-  background-image: url(../img/SVG/underhedder_bg1.svg), url(../img/SVG/underhedder_bg2.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-position: 100% 112%, 100% 100%;
+  background-image: url(../img/SVG/underhedder_bg3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
   z-index: 1;
+  position: relative;
+}
+.under-h1wrap h1 {
+  padding: 140px 0 277px 0;
+  color: #FFF;
+  font-family: Thunder;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }

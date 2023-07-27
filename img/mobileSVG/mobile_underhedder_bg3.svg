@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<?xml-stylesheet href="mobile_underhedder_bg3.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+ <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="2125" y1="-39508.29" x2="12471" y2="15378.98">
+  <stop offset="0" style="stop-opacity:1; stop-color:#161616"/>
+  <stop offset="0.670588" style="stop-opacity:1; stop-color:#260046"/>
+  <stop offset="0.839216" style="stop-opacity:1; stop-color:#2A004E"/>
+  <stop offset="0.941176" style="stop-opacity:1; stop-color:#3D0070"/>
+  <stop offset="1" style="stop-opacity:1; stop-color:#500092"/>
+  <stop offset="1" style="stop-opacity:1; stop-color:#2A004E"/>
+ </linearGradient>
+ </defs>
+ <g id="Содержимое_x0020_PowerClip">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M-8550 3367.08l38100 0 0 14566.45c0,759.91 -538.43,1413.28 -1284.55,1558.32l-34924.94 6790.98c-979.97,190.53 -1890.51,-559.99 -1890.51,-1558.32l0 -21357.43z"/>
+  <path class="fil1" d="M29550 17358.86l-38100 0 0 5578.29c0,976.63 873.47,1721.67 1837.88,1567.63l34924.92 -5578.29c770.46,-123.03 1337.2,-787.53 1337.2,-1567.63zm0 0l-38100 0 0 -57984.07 38100 0 0 57984.07z"/>
+ </g>
+</svg>

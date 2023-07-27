@@ -92,7 +92,8 @@ header {
 	position: relative;
 
 	h1{
-		padding: 140px 0 277px var(--padding-left-and-right);
+		margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
+		padding: 140px 0 277px 0;
 		color: #FFF;
 		font-family: Thunder;
 		font-size: 140px;

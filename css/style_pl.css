@@ -1,4 +1,13 @@
-.header_header-wrap {
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  transition: background-color 0.4s;
+}
+header_header-wrap {
   min-height: 80px;
 }
 
@@ -7,6 +16,7 @@
   min-height: 51px;
   min-width: 191px;
   display: flex;
+  flex-shrink: 1;
 }
 .logo_img {
   margin: 0 0 1px 0;
@@ -27,6 +37,7 @@
 
 .web-word {
   display: flex;
+  color: #FFF;
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
@@ -36,6 +47,7 @@
 
 .you-word {
   display: flex;
+  color: #FFF;
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
@@ -45,11 +57,20 @@
 
 .digitalagency-words {
   display: flex;
+  color: #FFF;
   font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  flex-shrink: 1;
   white-space: nowrap;
+}
+
+.under-h1wrap {
+  min-height: 22.9166666667vw;
+  background-image: url(../img/SVG/underhedder_bg1.svg), url(../img/SVG/underhedder_bg2.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: 100% 112%, 100% 100%;
+  z-index: 1;
 }

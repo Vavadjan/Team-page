@@ -3,6 +3,7 @@
 }
 
 header {
+	padding: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -40,7 +41,7 @@ header {
 }
 
 .logo {
-	margin: 15px 0 0 var(--padding-left-and-right);
+	margin: 15px 0 0 0;
 	min-height: 51px;
 	min-width: 191px;
 	display: flex;
@@ -97,7 +98,7 @@ header {
 }
 
 .under-p-wrap {
-	padding: 8.333333333333333vw 1.11111111111111vw 16.38888888888889vw 1.11111111111111vw;
+	padding: 8.333333333333333vw 0 16.38888888888889vw 0;
 	min-height: 22.91666666666667vw;
 	background-image: url(../img/SVG/underhedder_bg3.svg);
 	background-repeat: no-repeat;
@@ -119,18 +120,18 @@ header {
 		}
 	
 		.outerblock {
-			margin: 0 1.94444444444444vw 0 1.94444444444444vw;
+			margin: 0 2.5vw 0 2.5vw;
 			/*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
-			border-radius: 1.041666666666667vw;
+			border-radius: 1.388888888888889vw;
 			background-color: #9DF850;
-			transform: skew(-8deg, 0deg);
+			transform: skew(-12deg, 0deg);
 			display: inline-block;
 	
 			p {
 				margin: -1.38888888888889vw 3.61111111111111vw -1.38888888888889vw 3.61111111111111vw;
 				padding: 0.90277777777778vw 0 0 0;
 				color: #161616;
-				transform: skew(8deg, 0deg);
+				transform: skew(12deg, 0deg);
 			}
 		}
 	}

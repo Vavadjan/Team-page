@@ -4,6 +4,7 @@
 }
 
 header {
+  padding: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +37,7 @@ header_header-wrap {
 }
 
 .logo {
-  margin: 15px 0 0 var(--padding-left-and-right);
+  margin: 15px 0 0 0;
   min-height: 51px;
   min-width: 191px;
   display: flex;
@@ -87,7 +88,7 @@ header_header-wrap {
 }
 
 .under-p-wrap {
-  padding: 8.3333333333vw 1.1111111111vw 16.3888888889vw 1.1111111111vw;
+  padding: 8.3333333333vw 0 16.3888888889vw 0;
   min-height: 22.9166666667vw;
   background-image: url(../img/SVG/underhedder_bg3.svg);
   background-repeat: no-repeat;
@@ -107,16 +108,16 @@ header_header-wrap {
   line-height: 12.6736111111vw;
 }
 .under-p-wrap .under-p-words-block .outerblock {
-  margin: 0 1.9444444444vw 0 1.9444444444vw;
+  margin: 0 2.5vw 0 2.5vw;
   /*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
-  border-radius: 1.0416666667vw;
+  border-radius: 1.3888888889vw;
   background-color: #9DF850;
-  transform: skew(-8deg, 0deg);
+  transform: skew(-12deg, 0deg);
   display: inline-block;
 }
 .under-p-wrap .under-p-words-block .outerblock p {
   margin: -1.3888888889vw 3.6111111111vw -1.3888888889vw 3.6111111111vw;
   padding: 0.9027777778vw 0 0 0;
   color: #161616;
-  transform: skew(8deg, 0deg);
+  transform: skew(12deg, 0deg);
 }

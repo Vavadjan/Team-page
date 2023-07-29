@@ -14,17 +14,13 @@ header {
   min-height: 80px;
   display: flex;
   justify-content: space-between;
-}
-header_header-wrap {
-  min-height: 80px;
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   margin: 15px 0 0 0;
   min-height: 51px;
-  min-width: 200px;
+  min-width: 191px;
   display: flex;
 }
 .logo_img {
@@ -137,7 +133,7 @@ header_header-wrap {
   display: inline-block;
 }
 .under-p-wrap .under-p-words-block .outerblock p {
-  margin: -1.3888888889vw 3.6111111111vw -1.3888888889vw 3.6111111111vw;
+  margin: -1.3888888889vw 3.05vw -1.3888888889vw 3.05vw;
   padding: 0.9027777778vw 0 0 0;
   color: #161616;
   transform: skew(12deg, 0deg);

@@ -10,22 +10,16 @@ header {
 	width: 100%;
 	z-index: 10;
 	background-color: transparent;
-			min-height: 80px;
-				display: flex;
-				justify-content: space-between;
-
-	&_header-wrap {
-		min-height: 80px;
-		display: flex;
-		justify-content: space-between;
-
-	}
+	min-height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
 	margin: 15px 0 0 0;
 	min-height: 51px;
-	min-width: 200px;
+	min-width: 191px;
 	display: flex;
 	
 	&_img {
@@ -34,23 +28,22 @@ header {
 		align-items: start;
 	}
 
-		.logo-link {
-			display: flex;
-			position: relative;
+	.logo-link {
+		display: flex;
+		position: relative;
 			/* Нужно для абсолютного позиционирования псевдоэлемента */
-			text-decoration: none;
+		text-decoration: none;
 	
-			p {
-				transition: color 0.5s;
-				/* Добавляем CSS transition для плавного изменения цвета шрифта */
-			}
+	p {
+		transition: color 0.5s;
+		/* Добавляем CSS transition для плавного изменения цвета шрифта */
+	}
 	
-			:hover {
-				color: #9DF850;
-				/* Изменяем цвет шрифта при наведении */
-			}
-	
-		}
+	:hover {
+		color: #9DF850;
+		/* Изменяем цвет шрифта при наведении */
+	}	
+}
 
 		.all-logo-words {
 			margin: 8px 0 -2px 9px;
@@ -157,7 +150,7 @@ header {
 			display: inline-block;
 	
 			p {
-				margin: -1.38888888888889vw 3.61111111111111vw -1.38888888888889vw 3.61111111111111vw;
+				margin: -1.38888888888889vw 3.05vw -1.38888888888889vw 3.05vw;
 				padding: 0.90277777777778vw 0 0 0;
 				color: #161616;
 				transform: skew(12deg, 0deg);

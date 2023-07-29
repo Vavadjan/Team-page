@@ -74,9 +74,11 @@ header {
 
 .social {
 	display: flex;
-}
 
-.social-ico {}
+	.social-ico {
+
+	}
+}
 
 .under-p-wrap {
 	padding: 9.72222222222222vw 1.11111111111111vw 16.38888888888889vw 1.11111111111111vw;
@@ -87,32 +89,34 @@ header {
 	background-position: 100% 100%;
 	z-index: 1;
 	position: relative;
-}
 
-.under-p-words-block {
-	p {
-		margin: 2.951388888888889vw var(--padding-left-and-right) 0 var(--padding-left-and-right);
-		padding: 0 0 0 0;
-		color: #FFF;
-		font-family: Thunder;
-		font-size: calc(0px + 140 * (100vw / 1440));
-		font-style: normal;
-		font-weight: 800;
-		line-height: 12.67361111111111vw;
-		}
-
-	.outerblock {
-		margin: 0 1.94444444444444vw 0 1.94444444444444vw; /*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
-		border-radius: 1.041666666666667vw;
-		background-color: #9DF850;
-		transform: skew(-8deg, 0deg);
-		display: inline-block;
-
+	.under-p-words-block {
 		p {
-			margin: -1.38888888888889vw 3.61111111111111vw -1.38888888888889vw 3.61111111111111vw;
-			padding: 0.90277777777778vw 0 0 0;
-			color: #161616;
-			transform: skew(8deg, 0deg);
+			margin: 2.951388888888889vw var(--padding-left-and-right) 0 var(--padding-left-and-right);
+			padding: 0 0 0 0;
+			color: #FFF;
+			font-family: Thunder;
+			font-size: calc(0px + 140 * (100vw / 1440));
+			font-style: normal;
+			font-weight: 800;
+			line-height: 12.67361111111111vw;
+		}
+	
+		.outerblock {
+			margin: 0 1.94444444444444vw 0 1.94444444444444vw;
+			/*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
+			border-radius: 1.041666666666667vw;
+			background-color: #9DF850;
+			transform: skew(-8deg, 0deg);
+			display: inline-block;
+	
+			p {
+				margin: -1.38888888888889vw 3.61111111111111vw -1.38888888888889vw 3.61111111111111vw;
+				padding: 0.90277777777778vw 0 0 0;
+				color: #161616;
+				transform: skew(8deg, 0deg);
 			}
-		}	
+		}
+	}
 }
+

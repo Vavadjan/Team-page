@@ -81,34 +81,42 @@ header {
 
 .social-ico {}
 
-.under-h1wrap {
+.under-p-wrap {
+	padding: 9.72222222222222vw 1.11111111111111vw 20.13888888888889vw 1.11111111111111vw;
 	min-height: 22.91666666666667vw;
 	background-image: url(../img/SVG/underhedder_bg3.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 100% 100%;
-	// background-position: 100% -550px, 100% -810px;
 	z-index: 1;
 	position: relative;
+}
 
-	h1{
+.under-p-words-block {
+	p {
 		margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
-		padding: 140px 0 277px 0;
+		padding: 0 0 0 0;
 		color: #FFF;
 		font-family: Thunder;
-		font-size: 140px;
+		font-size: calc(0px + 140 * (100vw / 1440));
 		font-style: normal;
 		font-weight: 800;
 		line-height: normal;
-	}
+		}
+
+	.outerblock {
+		margin: 0 1.94444444444444vw 0 1.94444444444444vw;
+		min-height: 10.83333333333333vw;
+		border-radius: 2.08333333333333vw;
+		background-color: #9DF850;
+		transform: skew(-8deg, 0deg);
+		display: inline-block;
+
+		p {
+			margin: 1.38888888888889vw 3.61111111111111vw 1.38888888888889vw 3.61111111111111vw;
+			padding: 0.90277777777778vw 0 0 0;
+			color: #161616;
+			transform: skew(8deg, 0deg);
+			}
+		}	
 }
-
-.highlight {}
-
-.specialists-wrap {}
-
-.specialists-menu {}
-
-.specialists-menu-ol {}
-
-.specialists-menu-a {}

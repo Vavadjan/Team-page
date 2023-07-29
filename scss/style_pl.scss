@@ -22,28 +22,10 @@ header {
 	}
 }
 
-.logo-link {
-	position: relative;
-	display: inline-block;
-		/* Нужно для абсолютного позиционирования псевдоэлемента */
-	text-decoration: none;
-
-	p {
-		transition: color 0.5s;
-		/* Добавляем CSS transition для плавного изменения цвета шрифта */
-	}
-
-	:hover {
-			color: #9DF850;
-			/* Изменяем цвет шрифта при наведении */
-		}
-
-}
-
 .logo {
 	margin: 15px 0 0 0;
 	min-height: 51px;
-	min-width: 191px;
+	min-width: 200px;
 	display: flex;
 	
 	&_img {
@@ -51,6 +33,25 @@ header {
 		display: flex;
 		align-items: start;
 	}
+
+		.logo-link {
+			display: flex;
+			position: relative;
+			/* Нужно для абсолютного позиционирования псевдоэлемента */
+			text-decoration: none;
+	
+			p {
+				transition: color 0.5s;
+				/* Добавляем CSS transition для плавного изменения цвета шрифта */
+			}
+	
+			:hover {
+				color: #9DF850;
+				/* Изменяем цвет шрифта при наведении */
+			}
+	
+		}
+
 		.all-logo-words {
 			margin: 8px 0 -2px 9px;
 			display: flex;
@@ -87,6 +88,34 @@ header {
 
 .main-menu {
 	display: flex;
+
+	a {
+		display: flex;
+	}
+	
+	ol {
+		display: flex;
+	
+		li {
+			display: flex;
+		}
+	}
+}
+
+.language-switch-menu {
+	display: flex;
+
+	a {
+		display: flex;
+	}
+
+	ol {
+		display: flex;
+
+		li {
+			display: flex;
+		}
+	}
 }
 
 .social {

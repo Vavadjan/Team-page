@@ -21,31 +21,30 @@ header_header-wrap {
   justify-content: space-between;
 }
 
-.logo-link {
-  position: relative;
-  display: inline-block;
-  /* Нужно для абсолютного позиционирования псевдоэлемента */
-  text-decoration: none;
-}
-.logo-link p {
-  transition: color 0.5s;
-  /* Добавляем CSS transition для плавного изменения цвета шрифта */
-}
-.logo-link :hover {
-  color: #9DF850;
-  /* Изменяем цвет шрифта при наведении */
-}
-
 .logo {
   margin: 15px 0 0 0;
   min-height: 51px;
-  min-width: 191px;
+  min-width: 200px;
   display: flex;
 }
 .logo_img {
   margin: 0 0 1px 0;
   display: flex;
   align-items: start;
+}
+.logo .logo-link {
+  display: flex;
+  position: relative;
+  /* Нужно для абсолютного позиционирования псевдоэлемента */
+  text-decoration: none;
+}
+.logo .logo-link p {
+  transition: color 0.5s;
+  /* Добавляем CSS transition для плавного изменения цвета шрифта */
+}
+.logo .logo-link :hover {
+  color: #9DF850;
+  /* Изменяем цвет шрифта при наведении */
 }
 .logo .all-logo-words {
   margin: 8px 0 -2px 9px;
@@ -77,6 +76,28 @@ header_header-wrap {
 }
 
 .main-menu {
+  display: flex;
+}
+.main-menu a {
+  display: flex;
+}
+.main-menu ol {
+  display: flex;
+}
+.main-menu ol li {
+  display: flex;
+}
+
+.language-switch-menu {
+  display: flex;
+}
+.language-switch-menu a {
+  display: flex;
+}
+.language-switch-menu ol {
+  display: flex;
+}
+.language-switch-menu ol li {
   display: flex;
 }
 

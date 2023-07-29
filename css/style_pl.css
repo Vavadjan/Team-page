@@ -18,6 +18,20 @@ header_header-wrap {
   justify-content: space-between;
 }
 
+.logo-link {
+  position: relative;
+  /* Нужно для абсолютного позиционирования псевдоэлемента */
+  text-decoration: none;
+}
+.logo-link p {
+  transition: color 0.5s;
+  /* Добавляем CSS transition для плавного изменения цвета шрифта */
+}
+.logo-link :hover {
+  color: #9DF850;
+  /* Изменяем цвет шрифта при наведении */
+}
+
 .logo {
   margin: 15px 0 0 var(--padding-left-and-right);
   min-height: 51px;
@@ -68,6 +82,10 @@ header_header-wrap {
 .social {
   display: flex;
 }
+.social .social-ico {
+  display: flex;
+}
+
 .under-p-wrap {
   padding: 9.7222222222vw 1.1111111111vw 16.3888888889vw 1.1111111111vw;
   min-height: 22.9166666667vw;

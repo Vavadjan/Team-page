@@ -18,12 +18,29 @@ header {
 	}
 }
 
+.logo-link {
+	position: relative;
+		/* Нужно для абсолютного позиционирования псевдоэлемента */
+	text-decoration: none;
+
+	p {
+		transition: color 0.5s;
+		/* Добавляем CSS transition для плавного изменения цвета шрифта */
+	}
+
+	:hover {
+			color: #9DF850;
+			/* Изменяем цвет шрифта при наведении */
+		}
+
+}
+
 .logo {
-	margin:15px 0 0 var(--padding-left-and-right);
+	margin: 15px 0 0 var(--padding-left-and-right);
 	min-height: 51px;
 	min-width: 191px;
 	display: flex;
-
+	
 	&_img {
 		margin: 0 0 1px 0;
 		display: flex;
@@ -64,9 +81,7 @@ header {
 				white-space: nowrap;
 			}
 		}
-	
-
-}
+	}
 
 .main-menu {
 	display: flex;
@@ -76,7 +91,7 @@ header {
 	display: flex;
 
 	.social-ico {
-
+		display: flex;
 	}
 }
 
@@ -119,4 +134,3 @@ header {
 		}
 	}
 }
-

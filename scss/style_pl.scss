@@ -13,7 +13,8 @@ header {
 
 	&_header-wrap {
 		min-height: 80px;
-		
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
@@ -22,7 +23,6 @@ header {
 	min-height: 51px;
 	min-width: 191px;
 	display: flex;
-	flex-shrink: 1;
 
 	&_img {
 		margin: 0 0 1px 0;
@@ -72,11 +72,12 @@ header {
 	white-space: nowrap;
 }
 
-.main-menu {}
+.main-menu {
+	display: flex;
+}
 
 .social {
 	display: flex;
-	margin: 0 var(--padding-left-and-right) 0 0;
 }
 
 .social-ico {}

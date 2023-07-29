@@ -29,47 +29,43 @@ header {
 		display: flex;
 		align-items: start;
 	}
-}
+		.all-logo-words {
+			margin: 8px 0 -2px 9px;
+			display: flex;
+			align-items: flex-end;
+			flex-direction: column;
+			line-height: normal;
+			font-style: normal;
+			font-family: Raleway;
 
-.all-logo-words {
-	margin: 8px 0 -2px 9px;
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-}
+			.webyou-words {
+					display: flex;
+				}
+					
+			.web-word {
+				display: flex;
+				color: #FFF;
+				font-size: 22px;
+				font-weight: 400;
+			}
+					
+			.you-word {
+				display: flex;
+				color: #FFF;
+				font-size: 22px;
+				font-weight: 800;
+			}
+					
+			.digitalagency-words {
+				display: flex;
+				color: #FFF;
+				font-size: 14px;
+				font-weight: 400;
+				white-space: nowrap;
+			}
+		}
+	
 
-.webyou-words {
-	display: flex;}
-
-.web-word {
-	display: flex;
-	color: #FFF;
-	font-family: Raleway;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-}
-
-.you-word {
-	display: flex;
-	color: #FFF;
-	font-family: Raleway;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 800;
-	line-height: normal;
-}
-
-.digitalagency-words {
-	display: flex;
-	color: #FFF;
-	font-family: Raleway;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	white-space: nowrap;
 }
 
 .main-menu {

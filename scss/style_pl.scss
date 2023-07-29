@@ -9,12 +9,15 @@ header {
 	width: 100%;
 	z-index: 10;
 	background-color: transparent;
-	transition: background-color .4s;
+			min-height: 80px;
+				display: flex;
+				justify-content: space-between;
 
 	&_header-wrap {
 		min-height: 80px;
 		display: flex;
 		justify-content: space-between;
+
 	}
 }
 
@@ -94,7 +97,7 @@ header {
 }
 
 .under-p-wrap {
-	padding: 9.72222222222222vw 1.11111111111111vw 16.38888888888889vw 1.11111111111111vw;
+	padding: 8.333333333333333vw 1.11111111111111vw 16.38888888888889vw 1.11111111111111vw;
 	min-height: 22.91666666666667vw;
 	background-image: url(../img/SVG/underhedder_bg3.svg);
 	background-repeat: no-repeat;
@@ -105,7 +108,7 @@ header {
 
 	.under-p-words-block {
 		p {
-			margin: 2.951388888888889vw var(--padding-left-and-right) 0 var(--padding-left-and-right);
+			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
 			padding: 0 0 0 0;
 			color: #FFF;
 			font-family: Thunder;

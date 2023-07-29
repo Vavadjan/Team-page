@@ -20,6 +20,7 @@ header {
 
 .logo-link {
 	position: relative;
+	display: inline-block;
 		/* Нужно для абсолютного позиционирования псевдоэлемента */
 	text-decoration: none;
 
@@ -54,30 +55,27 @@ header {
 			line-height: normal;
 			font-style: normal;
 			font-family: Raleway;
+			color: #FFF;
+			font-size: 22px;
+			font-weight: 400;
 
 			.webyou-words {
 					display: flex;
+					gap: 6px;
 				}
 					
 			.web-word {
 				display: flex;
-				color: #FFF;
-				font-size: 22px;
-				font-weight: 400;
 			}
 					
 			.you-word {
 				display: flex;
-				color: #FFF;
-				font-size: 22px;
 				font-weight: 800;
 			}
 					
 			.digitalagency-words {
 				display: flex;
-				color: #FFF;
 				font-size: 14px;
-				font-weight: 400;
 				white-space: nowrap;
 			}
 		}

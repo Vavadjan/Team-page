@@ -20,6 +20,7 @@ header_header-wrap {
 
 .logo-link {
   position: relative;
+  display: inline-block;
   /* Нужно для абсолютного позиционирования псевдоэлемента */
   text-decoration: none;
 }
@@ -51,27 +52,24 @@ header_header-wrap {
   line-height: normal;
   font-style: normal;
   font-family: Raleway;
-}
-.logo .all-logo-words .webyou-words {
-  display: flex;
-}
-.logo .all-logo-words .web-word {
-  display: flex;
   color: #FFF;
   font-size: 22px;
   font-weight: 400;
 }
+.logo .all-logo-words .webyou-words {
+  display: flex;
+  gap: 6px;
+}
+.logo .all-logo-words .web-word {
+  display: flex;
+}
 .logo .all-logo-words .you-word {
   display: flex;
-  color: #FFF;
-  font-size: 22px;
   font-weight: 800;
 }
 .logo .all-logo-words .digitalagency-words {
   display: flex;
-  color: #FFF;
   font-size: 14px;
-  font-weight: 400;
   white-space: nowrap;
 }
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --padding-left-and-right: 5.55555555555556vw;
 }
@@ -97,7 +98,7 @@ header_header-wrap {
   line-height: 12.6736111111vw;
 }
 .under-p-words-block .outerblock {
-  margin: 0 1.9444444444vw 0 1.9444444444vw;
+  margin: 0 1.9444444444vw 0 1.9444444444vw; /*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
   border-radius: 1.0416666667vw;
   background-color: #9DF850;
   transform: skew(-8deg, 0deg);

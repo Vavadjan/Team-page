@@ -94,7 +94,7 @@ header {
 
 .under-p-words-block {
 	p {
-		margin: 2.951388888888889vw var(--padding-left-and-right) 2.951388888888889vw var(--padding-left-and-right);
+		margin: 2.951388888888889vw var(--padding-left-and-right) 0 var(--padding-left-and-right);
 		padding: 0 0 0 0;
 		color: #FFF;
 		font-family: Thunder;
@@ -106,14 +106,13 @@ header {
 
 	.outerblock {
 		margin: 0 1.94444444444444vw 0 1.94444444444444vw;
-		min-height: 10.83333333333333vw;
-		border-radius: 2.08333333333333vw;
+		border-radius: 1.041666666666667vw;
 		background-color: #9DF850;
 		transform: skew(-8deg, 0deg);
 		display: inline-block;
 
 		p {
-			margin: 1.38888888888889vw 3.61111111111111vw 1.38888888888889vw 3.61111111111111vw;
+			margin: -1.38888888888889vw 3.61111111111111vw -1.38888888888889vw 3.61111111111111vw;
 			padding: 0.90277777777778vw 0 0 0;
 			color: #161616;
 			transform: skew(8deg, 0deg);

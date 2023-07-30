@@ -175,6 +175,9 @@ header {
 	min-width: 140px;
 	display: flex;
 	gap: 1.388888888888889vw;
+		:hover {
+		color: #9df850;
+	}
 
 	.social-ico {
 		display: flex;

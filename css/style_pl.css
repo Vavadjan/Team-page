@@ -154,6 +154,9 @@ header {
   display: flex;
   gap: 1.3888888889vw;
 }
+.social :hover {
+  color: #9df850;
+}
 .social .social-ico {
   display: flex;
 }

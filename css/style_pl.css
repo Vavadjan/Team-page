@@ -79,6 +79,9 @@ header {
   font-weight: 500;
   line-height: normal;
 }
+.main-menu :hover {
+  color: #9df850;
+}
 .main-menu ol {
   display: flex;
   gap: 2.2222222222vw;
@@ -105,17 +108,23 @@ header {
   font-weight: 400;
   line-height: normal;
 }
+.language-switch-menu :hover {
+  color: #9df850;
+}
 .language-switch-menu ol {
   display: flex;
-  gap: 3px;
+  gap: 5px;
 }
-.language-switch-menu ol .first-li:after {
+.language-switch-menu ol .first-li :after {
+  color: #fff;
   content: "/";
+  margin: 0 0 0 5px;
+  pointer-events: none; /* Отключаем события указателя для предотвращения кликов */
 }
 .language-switch-menu ol li {
   display: flex;
 }
-.language-switch-menu ol li .language-switch-menu_link {
+.language-switch-menu ol li a {
   display: flex;
   text-decoration: none;
   color: #fff;
@@ -124,7 +133,7 @@ header {
   transition: color 0.5s;
   /* Добавляем CSS transition для плавного изменения цвета шрифта */
 }
-.language-switch-menu ol li .language-switch-menu_active-link {
+.language-switch-menu ol li .language-switch-menu-active-link {
   display: flex;
   text-decoration: none;
   color: #9df850;

@@ -3,7 +3,6 @@
 }
 
 header {
-	padding: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -16,7 +15,8 @@ header {
 	align-items: center;
 }
 
-.logo {
+.logo {	
+	padding: 0 0 0 var(--padding-left-and-right);
 	min-height: 51px;
 	min-width: 191px;
 	display: flex;
@@ -112,6 +112,13 @@ header {
 	}
 }
 
+
+.language-and-social-combined-wrapper {	
+	padding: 0 var(--padding-left-and-right) 0 0;
+	display: flex;
+	gap: 2.777777777777778vw;
+}
+
 .language-switch-menu {
 	display: flex;
 	color: #fff;
@@ -165,7 +172,9 @@ header {
 }
 
 .social {
+	min-width: 140px;
 	display: flex;
+	gap: 1.388888888888889vw;
 
 	.social-ico {
 		display: flex;

@@ -105,7 +105,6 @@ header {
 				/* Нужно для абсолютного позиционирования псевдоэлемента */
 				transition: color 0.5s;
 				/* Добавляем CSS transition для плавного изменения цвета шрифта */
-
 				color: #fff;
 			}
 		}
@@ -116,10 +115,6 @@ header {
 	padding: 0 var(--padding-left-and-right) 0 0;
 	display: flex;
 	gap: 2.777777777777778vw;
-
-	:hover {
-		color: #9df850;
-	}
 }
 
 .language-switch-menu {
@@ -130,6 +125,10 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+
+	:hover {
+		color: #9df850;
+	}
 
 	ol {
 		display: flex;
@@ -173,29 +172,31 @@ header {
 .social-links {
 	min-width: 140px;
 	display: flex;
-	
-	a {		
-		position: relative;
-		/* Нужно для абсолютного позиционирования псевдоэлемента */
-		transition: color 5s;
-		/* Добавляем CSS transition для плавного изменения цвета шрифта */
+	gap: 1.388888888888889vw;
 
-		:hover {
-			fill: #9df850;
+					button :hover svg path {
+					fill: #9df850;
+				}
+
+	button {			
+		display: flex;
+		background: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+		outline: none;
+				width: 24px;
+				height: 24px;
+				fill: #fff;
+				display: flex;
+				text-decoration: none;				
+				position: relative;
+				/* Нужно для абсолютного позиционирования псевдоэлемента */
+				transition: fill 0.5s;
+				/* Добавляем CSS transition для плавного изменения цвета шрифта */
+			}
 		}
-	}
-
-
-
-	ol {
-		display: flex;
-		gap: 1.388888888888889vw;
-	}
-
-	li {
-		display: flex;
-	}
-}
+	
 
 
 .under-p-wrap {

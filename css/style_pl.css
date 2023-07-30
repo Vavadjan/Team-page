@@ -153,7 +153,13 @@ header {
   min-width: 140px;
   display: flex;
 }
-.social-links :hover {
+.social-links a {
+  position: relative;
+  /* Нужно для абсолютного позиционирования псевдоэлемента */
+  transition: color 5s;
+  /* Добавляем CSS transition для плавного изменения цвета шрифта */
+}
+.social-links a :hover {
   fill: #9df850;
 }
 .social-links ol {
@@ -162,11 +168,6 @@ header {
 }
 .social-links li {
   display: flex;
-  width: 100%;
-  height: 100%;
-}
-.social-links svg {
-  fill: #fff;
 }
 
 .under-p-wrap {

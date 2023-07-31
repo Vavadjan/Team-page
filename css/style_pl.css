@@ -206,6 +206,7 @@ header {
   font-weight: 800;
   position: relative;
   line-height: 13.4027777778vw;
+  display: inline-block;
 }
 .under-p-wrap .under-p-words-block .outerblock::before {
   content: "";
@@ -213,7 +214,6 @@ header {
   background-color: #9df850;
   transform: skew(-12deg, 0deg);
   display: inline-block;
-  display: block;
   position: absolute;
   top: -0.9722222222vw; /* Задаем отрицательное значение верхнего отступа */
   left: -3.1944444444vw; /* Задаем отрицательное значение левого отступа */

@@ -71,6 +71,7 @@ header {
 		}
 
 		.digitalagency-words {
+			margin: 3px 0 0 0;
 			display: flex;
 			font-size: 14px;
 			white-space: nowrap;
@@ -185,19 +186,17 @@ header {
 		padding: 0;
 		margin: 0;
 		outline: none;
-				width: 24px;
-				height: 24px;
-				fill: #fff;
-				display: flex;
-				text-decoration: none;				
-				position: relative;
-				/* Нужно для абсолютного позиционирования псевдоэлемента */
-				transition: fill 0.5s;
-				/* Добавляем CSS transition для плавного изменения цвета шрифта */
-			}
-		}
-	
-
+		width: 24px;
+		height: 24px;
+		fill: #fff;
+		display: flex;
+		text-decoration: none;				
+		position: relative;
+		/* Нужно для абсолютного позиционирования псевдоэлемента */
+		transition: fill 0.5s;
+		/* Добавляем CSS transition для плавного изменения цвета шрифта */
+	}
+}
 
 .under-p-wrap {
 	padding: 8.333333333333333vw 0 16.38888888888889vw 0;
@@ -210,7 +209,8 @@ header {
 	position: relative;
 
 	.under-p-words-block {
-		p {
+		span {
+			display: block;
 			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
 			padding: 0 0 0 0;
 			color: #fff;
@@ -218,23 +218,35 @@ header {
 			font-size: calc(0px + 140 * (100vw / 1440));
 			font-style: normal;
 			font-weight: 800;
-			line-height: 12.67361111111111vw;
+			line-height: 11.80555555555556vw;
 		}
 
 		.outerblock {
-			margin: 0 2.5vw 0 2.5vw;
-			/*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
+			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
+			// padding: 4px 20px 0 0;
+			color: #161616;
+			font-family: Thunder;
+			font-size: calc(0px + 140 * (100vw / 1440));
+			font-style: normal;
+			font-weight: 800;
+			position: relative;
+			line-height: 13.40277777777778vw;
+		}
+
+		.outerblock::before {
+			content: "";	
 			border-radius: 1.388888888888889vw;
 			background-color: #9df850;
 			transform: skew(-12deg, 0deg);
 			display: inline-block;
-
-			p {
-				margin: -1.38888888888889vw 3.05vw -1.38888888888889vw 3.05vw;
-				padding: 0.90277777777778vw 0 0 0;
-				color: #161616;
-				transform: skew(12deg, 0deg);
-			}
+			display: block;
+			position: absolute;
+			top: -0.9722222222222222vw; /* Задаем отрицательное значение верхнего отступа */
+			left: -3.194444444444444vw; /* Задаем отрицательное значение левого отступа */
+			right: -3.194444444444444vw; /* Задаем отрицательное значение правого отступа */
+			bottom: -0.4861111111111111vw; /* Задаем отрицательное значение нижнего отступа */
+			background-color: #9df850; /* Используем тот же цвет фона, что и у блока H1 */
+			z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
 		}
 	}
 }

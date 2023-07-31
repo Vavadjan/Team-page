@@ -65,6 +65,7 @@ header {
   font-weight: 800;
 }
 .logo .all-logo-words .digitalagency-words {
+  margin: 3px 0 0 0;
   display: flex;
   font-size: 14px;
   white-space: nowrap;
@@ -185,7 +186,8 @@ header {
   z-index: 1;
   position: relative;
 }
-.under-p-wrap .under-p-words-block p {
+.under-p-wrap .under-p-words-block span {
+  display: block;
   margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
   padding: 0 0 0 0;
   color: #fff;
@@ -193,19 +195,30 @@ header {
   font-size: calc(0px + 9.7222222222vw);
   font-style: normal;
   font-weight: 800;
-  line-height: 12.6736111111vw;
+  line-height: 11.8055555556vw;
 }
 .under-p-wrap .under-p-words-block .outerblock {
-  margin: 0 2.5vw 0 2.5vw;
-  /*Вот тут маржином можно изменить размеры зелёного блока за текстом! */
+  margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
+  color: #161616;
+  font-family: Thunder;
+  font-size: calc(0px + 9.7222222222vw);
+  font-style: normal;
+  font-weight: 800;
+  position: relative;
+  line-height: 13.4027777778vw;
+}
+.under-p-wrap .under-p-words-block .outerblock::before {
+  content: "";
   border-radius: 1.3888888889vw;
   background-color: #9df850;
   transform: skew(-12deg, 0deg);
   display: inline-block;
-}
-.under-p-wrap .under-p-words-block .outerblock p {
-  margin: -1.3888888889vw 3.05vw -1.3888888889vw 3.05vw;
-  padding: 0.9027777778vw 0 0 0;
-  color: #161616;
-  transform: skew(12deg, 0deg);
+  display: block;
+  position: absolute;
+  top: -0.9722222222vw; /* Задаем отрицательное значение верхнего отступа */
+  left: -3.1944444444vw; /* Задаем отрицательное значение левого отступа */
+  right: -3.1944444444vw; /* Задаем отрицательное значение правого отступа */
+  bottom: -0.4861111111vw; /* Задаем отрицательное значение нижнего отступа */
+  background-color: #9df850; /* Используем тот же цвет фона, что и у блока H1 */
+  z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
 }

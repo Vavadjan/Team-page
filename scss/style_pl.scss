@@ -175,11 +175,11 @@ header {
 	display: flex;
 	gap: 1.388888888888889vw;
 
-					button :hover svg path {
-					fill: #9df850;
-				}
+	button :hover svg path {
+		fill: #9df850;
+	}
 
-	button {			
+	button {
 		display: flex;
 		background: none;
 		border: none;
@@ -190,66 +190,13 @@ header {
 		height: 24px;
 		fill: #fff;
 		display: flex;
-		text-decoration: none;				
+		text-decoration: none;
 		position: relative;
 		/* Нужно для абсолютного позиционирования псевдоэлемента */
 		transition: fill 0.5s;
 		/* Добавляем CSS transition для плавного изменения цвета шрифта */
 	}
 }
-
-// .under-p-wrap {
-// 	padding: 8.333333333333333vw 0 14.72222222222222vw 0;
-// 	min-height: 22.91666666666667vw;
-// 	background-image: url(../img/SVG/underhedder_bg3.svg);
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// 	background-position: 100% 100%;
-// 	z-index: 1;
-// 	position: relative;
-
-// 	.under-p-words-block {
-// 		span {
-// 			display: block;
-// 			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
-// 			padding: 0 0 0 0;
-// 			color: #fff;
-// 			font-family: Thunder;
-// 			font-size: calc(0px + 140 * (100vw / 1440));
-// 			font-style: normal;
-// 			font-weight: 800;
-// 			line-height: 11.80555555555556vw;
-// 		}
-
-// 		.outerblock {
-// 			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
-// 			// padding: 4px 20px 0 0;
-// 			color: #161616;
-// 			font-family: Thunder;
-// 			font-size: calc(0px + 140 * (100vw / 1440));
-// 			font-style: normal;
-// 			font-weight: 800;
-// 			position: relative;
-// 			line-height: 13.40277777777778vw;
-// 		}
-
-// 		.outerblock::before {
-// 			content: "";	
-// 			border-radius: 1.388888888888889vw;
-// 			background-color: #9df850;
-// 			transform: skew(-12deg, 0deg);
-// 			display: inline-block;
-// 			display: block;
-// 			position: absolute;
-// 			top: -0.9722222222222222vw; /* Задаем отрицательное значение верхнего отступа */
-// 			left: -3.194444444444444vw; /* Задаем отрицательное значение левого отступа */
-// 			right: -3.194444444444444vw; /* Задаем отрицательное значение правого отступа */
-// 			bottom: -0.4861111111111111vw; /* Задаем отрицательное значение нижнего отступа */
-// 			background-color: #9df850; /* Используем тот же цвет фона, что и у блока H1 */
-// 			z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
-// 		}
-// 	}
-// }
 
 .under-p-wrap {
 	padding: 8.333333333333333vw 0 14.72222222222222vw 0;
@@ -276,7 +223,6 @@ header {
 
 		.outerblock {
 			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
-			// padding: 4px 20px 0 0;
 			color: #161616;
 			font-family: Thunder;
 			font-size: calc(0px + 140 * (100vw / 1440));
@@ -288,19 +234,18 @@ header {
 		}
 
 		.outerblock::before {
-			content: "";	
+			content: "";
 			border-radius: 1.388888888888889vw;
 			background-color: #9df850;
 			transform: skew(-12deg, 0deg);
-			display: inline-block;
+			display: block;
 			position: absolute;
-			top: -0.9722222222222222vw; /* Задаем отрицательное значение верхнего отступа */
-			left: -3.194444444444444vw; /* Задаем отрицательное значение левого отступа */
-			right: -3.194444444444444vw; /* Задаем отрицательное значение правого отступа */
-			bottom: -0.4861111111111111vw; /* Задаем отрицательное значение нижнего отступа */
-			background-color: #9df850; /* Используем тот же цвет фона, что и у блока H1 */
+			top: 1.041666666666667vw;
+			left: -3.194444444444444vw;
+			right: -3.194444444444444vw;
+			bottom: 1.527777777777778vw;
+			background-color: #9df850;
 			z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
 		}
 	}
 }
-

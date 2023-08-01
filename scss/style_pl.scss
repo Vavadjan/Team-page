@@ -198,8 +198,18 @@ header {
 	}
 }
 
-.banner {
+.banner-outer-cover {
+	padding: 0 0 calc(70/1440*100vw) 0;
+	border-radius: 0 0 calc(46/1440*100vw) calc(74/1440*100vw);
 	position: relative;
+	background-color: #C279FF;	
+	transform: skew(0deg, -11deg);	
+	transform-origin: left top;
+}
+
+.banner-inner-cover {
+	transform: skew(0deg, 11deg);	
+	transform-origin: left top;
 }
 
 .under-p-wrap {

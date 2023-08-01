@@ -176,8 +176,18 @@ header {
   /* Добавляем CSS transition для плавного изменения цвета шрифта */
 }
 
-.banner {
+.banner-outer-cover {
+  padding: 0 0 4.8611111111vw 0;
+  border-radius: 0 0 3.1944444444vw 5.1388888889vw;
   position: relative;
+  background-color: #C279FF;
+  transform: skew(0deg, -11deg);
+  transform-origin: left top;
+}
+
+.banner-inner-cover {
+  transform: skew(0deg, 11deg);
+  transform-origin: left top;
 }
 
 .under-p-wrap {

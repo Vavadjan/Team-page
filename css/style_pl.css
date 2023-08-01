@@ -137,7 +137,7 @@ header {
   color: #fff;
   position: relative;
   /* Нужно для абсолютного позиционирования псевдоэлемента */
-  transition: color 0.5s;
+  transition: color 5s;
   /* Добавляем CSS transition для плавного изменения цвета шрифта */
 }
 .language-switch-menu ol li .language-switch-menu-active-link {

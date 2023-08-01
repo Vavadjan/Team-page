@@ -153,7 +153,7 @@ header {
 				color: #fff;
 				position: relative;
 				/* Нужно для абсолютного позиционирования псевдоэлемента */
-				transition: color 0.5s;
+				transition: color 5s;
 				/* Добавляем CSS transition для плавного изменения цвета шрифта */
 			}
 
@@ -173,7 +173,7 @@ header {
 .social-links {
 	min-width: 140px;
 	display: flex;
-	gap: 1.388888888888889vw;
+	gap: calc(20/1440*100vw);
 
 	button :hover svg path {
 		fill: #9df850;

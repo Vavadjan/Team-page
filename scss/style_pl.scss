@@ -198,27 +198,37 @@ header {
 	}
 }
 
+.banner {
+	position: relative;
+}
+
 .under-p-wrap {
-	padding: 8.333333333333333vw 0 14.72222222222222vw 0;
-	min-height: 22.91666666666667vw;
-	background-image: url(../img/SVG/underhedder_bg3.svg);
+	padding: calc(120/1440*100vw) 0 calc(156/1440*100vw) 0;
+	min-height: calc(330/1440*100vw);
+	border-radius: 0 0 calc(50/1440*100vw) calc(70/1440*100vw);
+	// background-image: url(../img/SVG/underhedder_bg3.svg);
+	background: linear-gradient(180deg, #161616 0%, #260046 32.29%, #2A004E 52.29%, #500092 73.65%, #3A006A 100%, #2A004E 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 100% 100%;
 	z-index: 1;
 	position: relative;
+	transform: skew(0deg, -9deg);
+	transform-origin: left top;
 
 	.under-p-words-block {
 		span {
 			display: block;
 			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
-			padding: 0 0 0 0;
+			padding: calc(17/1440*100vw) 0 0 0;
 			color: #fff;
 			font-family: Thunder;
 			font-size: calc(0px + 140 * (100vw / 1440));
 			font-style: normal;
 			font-weight: 800;
-			line-height: 11.80555555555556vw;
+			line-height: calc(167/1440*100vw);
+			transform: skew(0deg, 9deg);
+			transform-origin: left top;
 		}
 
 		.outerblock {
@@ -229,21 +239,21 @@ header {
 			font-style: normal;
 			font-weight: 800;
 			position: relative;
-			line-height: 13.40277777777778vw;
+			line-height: calc(165/1440*100vw);
 			display: inline-block;
 		}
 
 		.outerblock::before {
 			content: "";
-			border-radius: 1.388888888888889vw;
+			border-radius: calc(15/1440*100vw) calc(25/1440*100vw) calc(15/1440*100vw) calc(25/1440*100vw);
 			background-color: #9df850;
-			transform: skew(-12deg, 0deg);
+			transform: skew(-14deg, 0deg);
 			display: block;
 			position: absolute;
-			top: 1.041666666666667vw;
-			left: -3.194444444444444vw;
-			right: -3.194444444444444vw;
-			bottom: 1.527777777777778vw;
+			top: calc(18/1440*100vw);
+			left: calc(-46/1440*100vw);
+			right: calc(-46/1440*100vw);
+			bottom: calc(8/1440*100vw);
 			background-color: #9df850;
 			z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
 		}

@@ -194,7 +194,7 @@ header {
   padding: 8.3333333333vw 0 10.8333333333vw 0;
   min-height: 22.9166666667vw;
   border-radius: 0 0 3.4722222222vw 4.8611111111vw;
-  background: linear-gradient(180deg, #161616 0%, #260046 32.29%, #2A004E 52.29%, #500092 73.65%, #3A006A 100%, #2A004E 100%);
+  background: linear-gradient(180deg, #161616 0%, #260046 30%, #2A004E 60%, #500092 80%, #3A006A 100%, #2A004E 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;

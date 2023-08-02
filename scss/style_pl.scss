@@ -303,6 +303,10 @@ header {
 	position: relative;
 	margin: calc(58/1440*100vw) 0 0 calc(40/1440*100vw);
 
+		:hover {
+		color: #9df850;
+	}
+
 	&_inner {
 			padding: 14px calc(25/1440*100vw) 14px calc(25/1440*100vw);
 			background: linear-gradient(136deg, #161616 0%, #260046 24.18%, #2A004E 39.24%, #45017D 52.24%, #500092 61.79%, #45017D 70.34%, #3A006A 80.00%, #2A004E 100%);
@@ -332,5 +336,6 @@ header {
 			font-weight: 500;
 			line-height: normal;
 			text-decoration: none;
+			transition: color 0.5s;
 		}
 }

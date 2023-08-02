@@ -285,6 +285,20 @@ header {
 	}
 }
 
+.specialists-menu::before {
+	content: "";
+	border-radius: calc(15/1440*100vw) calc(30/1440*100vw) calc(15/1440*100vw) calc(30/1440*100vw);
+	background-color: #C279FF;
+	transform: skew(-20deg, -1.9deg);
+	transform-origin: right top;
+	position: absolute;
+	top: calc(-30/1440*100vw);
+	left: calc(-6/1440*100vw);
+	right: calc(0/1440*100vw);
+	bottom: calc(28/1440*100vw);
+	z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
+}
+
 .specialists-menu {	
 	position: relative;
 	margin: calc(58/1440*100vw) 0 0 calc(40/1440*100vw);
@@ -293,7 +307,7 @@ header {
 			padding: 14px calc(25/1440*100vw) 14px calc(25/1440*100vw);
 			background: linear-gradient(136deg, #161616 0%, #260046 24.18%, #2A004E 39.24%, #45017D 52.24%, #500092 61.79%, #45017D 70.34%, #3A006A 80.00%, #2A004E 100%);
 			position: relative;
-			transform: skew(-21deg, -1.3deg);
+			transform: skew(-20deg, -1.3deg);
 			transform-origin: left top;
 			border-radius: calc(15/1440*100vw) calc(30/1440*100vw) calc(15/1440*100vw) calc(30/1440*100vw);
 			display: flex;
@@ -302,7 +316,7 @@ header {
 
 		&_ol {		
 			gap: calc(50/1440*100vw);
-			transform: skew(21deg, 0deg);
+			transform: skew(20deg, 0deg);
 			display: flex;
 			justify-content: center;			
 			align-items: center;

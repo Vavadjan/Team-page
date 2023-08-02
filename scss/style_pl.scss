@@ -153,7 +153,7 @@ header {
 				color: #fff;
 				position: relative;
 				/* Нужно для абсолютного позиционирования псевдоэлемента */
-				transition: color 5s;
+				transition: color 0.5s;
 				/* Добавляем CSS transition для плавного изменения цвета шрифта */
 			}
 
@@ -212,7 +212,7 @@ header {
 	transform-origin: left top;
 }
 
-.under-p-wrap {
+.under-h1-wrap {
 	padding: calc(120/1440*100vw) 0 calc(156/1440*100vw) 0;
 	min-height: calc(330/1440*100vw);
 	border-radius: 0 0 calc(50/1440*100vw) calc(70/1440*100vw);
@@ -226,7 +226,7 @@ header {
 	transform: skew(0deg, -9deg);
 	transform-origin: left top;
 
-	.under-p-words-block {
+	.under-h1-words-block {
 		span {
 			display: block;
 			margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
@@ -267,5 +267,22 @@ header {
 			background-color: #9df850;
 			z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
 		}
+	}
+}
+
+.h2-container {
+	position: relative;
+	margin: calc(-136/1440*100vw) var(--padding-left-and-right) 0 calc(485/1440*100vw);
+	background: linear-gradient(127deg, #161616 0%, #260046 10.86%, #2A004E 24.10%, #500092 41.91%, #3A006A 70.64%, #2A004E 88.57%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	h2 {
+		font-family: Thunder;
+		font-size: calc(0px + 130 * (100vw / 1440));
+		font-style: normal;
+		font-weight: 800;
+		line-height: calc(120/1440*100vw);
 	}
 }

@@ -137,7 +137,7 @@ header {
   color: #fff;
   position: relative;
   /* Нужно для абсолютного позиционирования псевдоэлемента */
-  transition: color 5s;
+  transition: color 0.5s;
   /* Добавляем CSS transition для плавного изменения цвета шрифта */
 }
 .language-switch-menu ol li .language-switch-menu-active-link {
@@ -190,7 +190,7 @@ header {
   transform-origin: left top;
 }
 
-.under-p-wrap {
+.under-h1-wrap {
   padding: 8.3333333333vw 0 10.8333333333vw 0;
   min-height: 22.9166666667vw;
   border-radius: 0 0 3.4722222222vw 4.8611111111vw;
@@ -203,7 +203,7 @@ header {
   transform: skew(0deg, -9deg);
   transform-origin: left top;
 }
-.under-p-wrap .under-p-words-block span {
+.under-h1-wrap .under-h1-words-block span {
   display: block;
   margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
   padding: 1.1805555556vw 0 0 0;
@@ -216,7 +216,7 @@ header {
   transform: skew(0deg, 9deg);
   transform-origin: left top;
 }
-.under-p-wrap .under-p-words-block .outerblock {
+.under-h1-wrap .under-h1-words-block .outerblock {
   margin: 0 var(--padding-left-and-right) 0 var(--padding-left-and-right);
   color: #161616;
   font-family: Thunder;
@@ -227,7 +227,7 @@ header {
   line-height: 11.4583333333vw;
   display: inline-block;
 }
-.under-p-wrap .under-p-words-block .outerblock::before {
+.under-h1-wrap .under-h1-words-block .outerblock::before {
   content: "";
   border-radius: 1.0416666667vw 1.7361111111vw 1.0416666667vw 1.7361111111vw;
   background-color: #9df850;
@@ -240,4 +240,20 @@ header {
   bottom: 0.5555555556vw;
   background-color: #9df850;
   z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
+}
+
+.h2-container {
+  position: relative;
+  margin: -9.4444444444vw var(--padding-left-and-right) 0 33.6805555556vw;
+  background: linear-gradient(127deg, #161616 0%, #260046 10.86%, #2A004E 24.1%, #500092 41.91%, #3A006A 70.64%, #2A004E 88.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2-container h2 {
+  font-family: Thunder;
+  font-size: calc(0px + 9.0277777778vw);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 8.3333333333vw;
 }

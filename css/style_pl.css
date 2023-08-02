@@ -238,7 +238,6 @@ header {
   left: -3.1944444444vw;
   right: -3.1944444444vw;
   bottom: 0.5555555556vw;
-  background-color: #9df850;
   z-index: -1; /* Устанавливаем z-index на -1, чтобы псевдоэлемент оказался под текстом */
 }
 
@@ -256,4 +255,37 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: 8.3333333333vw;
+}
+
+.specialists-menu {
+  position: relative;
+  margin: 4.0277777778vw 0 0 2.7777777778vw;
+}
+.specialists-menu_inner {
+  padding: 14px 1.7361111111vw 14px 1.7361111111vw;
+  background: linear-gradient(136deg, #161616 0%, #260046 24.18%, #2A004E 39.24%, #45017D 52.24%, #500092 61.79%, #45017D 70.34%, #3A006A 80%, #2A004E 100%);
+  position: relative;
+  transform: skew(-21deg, -1.3deg);
+  transform-origin: left top;
+  border-radius: 1.0416666667vw 2.0833333333vw 1.0416666667vw 2.0833333333vw;
+  display: flex;
+  z-index: 10;
+}
+.specialists-menu_ol {
+  gap: 3.4722222222vw;
+  transform: skew(21deg, 0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specialists-menu_link {
+  display: flex;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.5277777778vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
 }
